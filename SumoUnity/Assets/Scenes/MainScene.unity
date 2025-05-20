@@ -264,7 +264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jsonFile: {fileID: 4900000, guid: 55a6b0fd1be0fad4b9830931acc1144e, type: 3}
   laneMaterial: {fileID: 2100000, guid: b12592b83b8ba0e49bb029ade7574509, type: 2}
-  nodeSize: 1
+  nodeSize: 8
   showNodes: 1
 --- !u!4 &318927361
 Transform:

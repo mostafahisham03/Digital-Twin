@@ -75,12 +75,17 @@ public class SUMONetworkVisualizer : MonoBehaviour
 
             if (showNodes)
             {
-                GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-                sphere.transform.position = pos;
-                sphere.transform.localScale = Vector3.one * nodeSize;
-                sphere.name = $"Node_{node.id}";
-                sphere.transform.parent = transform;
+                GameObject circle = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
+                circle.transform.position = pos;
+                circle.transform.localScale = new Vector3(nodeSize, 0.01f, nodeSize); // Flattened Y
+                circle.name = $"Node_{node.id}";
+                circle.transform.parent = transform;
+
+                // Optional: assign lane material for consistency
+                if (laneMaterial != null)
+                    circle.GetComponent<Renderer>().material = laneMaterial;
             }
+
         }
 
         foreach (var edge in network.edges)
