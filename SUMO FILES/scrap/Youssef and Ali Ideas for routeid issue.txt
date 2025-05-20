@@ -1,0 +1,3 @@
+1.add veh at starting pos and move to current pos
+2.share3 el be3eed
+3.add new routes with starting and ending positions.

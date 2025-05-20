@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-04-06 21:47:08.438058 by randomTrips.py v1_16_0+0000-94ec4c6cd72
+<configuration>
+    <end value="1000"/>
+    <net-file value="sumotestmap.net.xml"/>
+    <output-trip-file value="trial.trips.xml"/>
+	C2B2
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="0" depart="0.00" from="A0A1" to="A1B1"/>
+    <trip id="1" depart="0.00" from="A0A1" to="B1C1"/>
+    <trip id="2" depart="0.00" from="A1C1" to="B1C1"/>
+	<trip id="5" depart="0.00" from="C2B2" to="C2D2"/>
+	<trip id="4" depart="0.00" from="A0A1" to="C0C1"/>
+
+</routes>

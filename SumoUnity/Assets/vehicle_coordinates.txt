@@ -1,0 +1,927 @@
+Timestep: 0.00
+    Vehicle ID: 0, x: 1358.86, y: 1616.46
+Timestep: 1.00
+    Vehicle ID: 0, x: 1358.88, y: 1614.73
+    Vehicle ID: 1, x: 594.78, y: 1105.09
+Timestep: 2.00
+    Vehicle ID: 0, x: 1358.91, y: 1611.50
+    Vehicle ID: 1, x: 596.53, y: 1105.18
+    Vehicle ID: 2, x: 1312.82, y: 1824.12
+Timestep: 3.00
+    Vehicle ID: 0, x: 1358.96, y: 1605.68
+    Vehicle ID: 1, x: 600.18, y: 1105.39
+    Vehicle ID: 2, x: 1313.29, y: 1822.82
+    Vehicle ID: 3, x: 1381.35, y: 1632.09
+Timestep: 4.00
+    Vehicle ID: 0, x: 1359.03, y: 1597.46
+    Vehicle ID: 1, x: 605.92, y: 1105.80
+    Vehicle ID: 2, x: 1314.33, y: 1819.94
+    Vehicle ID: 3, x: 1381.34, y: 1633.64
+    Vehicle ID: 4, x: 586.56, y: 1522.71
+Timestep: 5.00
+    Vehicle ID: 0, x: 1359.15, y: 1587.84
+    Vehicle ID: 1, x: 613.23, y: 1106.26
+    Vehicle ID: 2, x: 1315.95, y: 1815.44
+    Vehicle ID: 3, x: 1381.31, y: 1636.83
+    Vehicle ID: 4, x: 586.51, y: 1520.51
+    Vehicle ID: 5, x: 1093.39, y: 1114.13
+Timestep: 6.00
+    Vehicle ID: 0, x: 1359.30, y: 1576.35
+    Vehicle ID: 1, x: 622.14, y: 1105.82
+    Vehicle ID: 2, x: 1319.66, y: 1809.90
+    Vehicle ID: 3, x: 1381.28, y: 1641.90
+    Vehicle ID: 4, x: 586.41, y: 1516.30
+    Vehicle ID: 5, x: 1091.88, y: 1114.17
+    Vehicle ID: 6, x: 566.55, y: 1235.67
+Timestep: 7.00
+    Vehicle ID: 0, x: 1359.47, y: 1562.91
+    Vehicle ID: 1, x: 633.15, y: 1105.48
+    Vehicle ID: 2, x: 1324.90, y: 1803.76
+    Vehicle ID: 3, x: 1381.24, y: 1649.01
+    Vehicle ID: 4, x: 586.26, y: 1509.49
+    Vehicle ID: 5, x: 1088.25, y: 1114.26
+    Vehicle ID: 6, x: 566.58, y: 1237.46
+    Vehicle ID: 7, x: 1359.14, y: 1588.53
+Timestep: 8.00
+    Vehicle ID: 0, x: 1359.65, y: 1547.01
+    Vehicle ID: 1, x: 645.90, y: 1105.26
+    Vehicle ID: 2, x: 1332.63, y: 1797.18
+    Vehicle ID: 3, x: 1381.18, y: 1657.51
+    Vehicle ID: 4, x: 586.05, y: 1500.52
+    Vehicle ID: 5, x: 1082.59, y: 1114.40
+    Vehicle ID: 6, x: 566.64, y: 1241.35
+    Vehicle ID: 7, x: 1359.17, y: 1586.11
+    Vehicle ID: 8, x: 1093.39, y: 1114.13
+Timestep: 9.00
+    Vehicle ID: 0, x: 1359.82, y: 1529.58
+    Vehicle ID: 1, x: 660.73, y: 1105.00
+    Vehicle ID: 2, x: 1340.00, y: 1787.06
+    Vehicle ID: 3, x: 1381.12, y: 1668.25
+    Vehicle ID: 4, x: 585.79, y: 1489.60
+    Vehicle ID: 5, x: 1075.56, y: 1114.58
+    Vehicle ID: 6, x: 566.73, y: 1246.68
+    Vehicle ID: 7, x: 1359.23, y: 1581.89
+    Vehicle ID: 8, x: 1090.91, y: 1114.19
+    Vehicle ID: 9, x: 436.79, y: 1853.16
+Timestep: 10.00
+    Vehicle ID: 0, x: 1360.01, y: 1510.23
+    Vehicle ID: 1, x: 677.73, y: 1104.70
+    Vehicle ID: 2, x: 1346.39, y: 1774.10
+    Vehicle ID: 3, x: 1381.04, y: 1681.17
+    Vehicle ID: 4, x: 585.49, y: 1476.39
+    Vehicle ID: 5, x: 1066.12, y: 1114.82
+    Vehicle ID: 6, x: 566.86, y: 1254.30
+    Vehicle ID: 7, x: 1359.31, y: 1575.87
+    Vehicle ID: 8, x: 1086.41, y: 1114.30
+    Vehicle ID: 9, x: 436.85, y: 1851.50
+Timestep: 11.00
+    Vehicle ID: 0, x: 1360.17, y: 1488.50
+    Vehicle ID: 1, x: 697.07, y: 1104.36
+    Vehicle ID: 2, x: 1352.15, y: 1758.19
+    Vehicle ID: 3, x: 1380.95, y: 1696.09
+    Vehicle ID: 4, x: 585.15, y: 1461.64
+    Vehicle ID: 5, x: 1055.29, y: 1115.09
+    Vehicle ID: 6, x: 567.01, y: 1263.36
+    Vehicle ID: 7, x: 1359.41, y: 1567.95
+    Vehicle ID: 8, x: 1079.33, y: 1114.48
+    Vehicle ID: 9, x: 437.15, y: 1847.71
+Timestep: 12.00
+    Vehicle ID: 0, x: 1360.49, y: 1464.78
+    Vehicle ID: 1, x: 716.76, y: 1104.02
+    Vehicle ID: 2, x: 1356.18, y: 1739.76
+    Vehicle ID: 3, x: 1380.84, y: 1712.62
+    Vehicle ID: 4, x: 584.16, y: 1445.17
+    Vehicle ID: 5, x: 1042.70, y: 1115.40
+    Vehicle ID: 6, x: 567.30, y: 1274.44
+    Vehicle ID: 7, x: 1359.52, y: 1558.39
+    Vehicle ID: 8, x: 1070.18, y: 1114.71
+    Vehicle ID: 9, x: 438.83, y: 1843.69
+Timestep: 13.00
+    Vehicle ID: 0, x: 1360.79, y: 1439.61
+    Vehicle ID: 1, x: 737.46, y: 1103.66
+    Vehicle ID: 2, x: 1357.77, y: 1718.98
+    Vehicle ID: 3, x: 1380.75, y: 1729.31
+    Vehicle ID: 4, x: 582.41, y: 1427.38
+    Vehicle ID: 5, x: 1027.88, y: 1115.78
+    Vehicle ID: 6, x: 567.75, y: 1288.00
+    Vehicle ID: 7, x: 1359.65, y: 1546.79
+    Vehicle ID: 8, x: 1059.03, y: 1114.99
+    Vehicle ID: 9, x: 442.91, y: 1842.25
+Timestep: 14.00
+    Vehicle ID: 0, x: 1361.09, y: 1411.91
+    Vehicle ID: 1, x: 757.91, y: 1103.30
+    Vehicle ID: 2, x: 1358.01, y: 1696.67
+    Vehicle ID: 3, x: 1382.47, y: 1742.02
+    Vehicle ID: 4, x: 578.28, y: 1407.42
+    Vehicle ID: 5, x: 1011.16, y: 1116.07
+    Vehicle ID: 6, x: 568.75, y: 1303.62
+    Vehicle ID: 7, x: 1359.78, y: 1533.22
+    Vehicle ID: 8, x: 1045.99, y: 1115.32
+    Vehicle ID: 9, x: 448.66, y: 1841.90
+Timestep: 15.00
+    Vehicle ID: 0, x: 1361.40, y: 1382.48
+    Vehicle ID: 1, x: 778.18, y: 1102.83
+    Vehicle ID: 2, x: 1358.28, y: 1671.92
+    Vehicle ID: 3, x: 1384.47, y: 1751.75
+    Vehicle ID: 4, x: 571.52, y: 1385.84
+    Vehicle ID: 5, x: 993.66, y: 1116.58
+    Vehicle ID: 6, x: 571.43, y: 1320.58
+    Vehicle ID: 7, x: 1359.94, y: 1517.94
+    Vehicle ID: 8, x: 1031.22, y: 1115.69
+    Vehicle ID: 9, x: 456.47, y: 1841.42
+Timestep: 16.00
+    Vehicle ID: 0, x: 1361.70, y: 1354.33
+    Vehicle ID: 1, x: 798.37, y: 1102.25
+    Vehicle ID: 2, x: 1358.56, y: 1645.18
+    Vehicle ID: 3, x: 1382.56, y: 1757.77
+    Vehicle ID: 4, x: 564.13, y: 1364.60
+    Vehicle ID: 5, x: 975.72, y: 1117.13
+    Vehicle ID: 6, x: 575.99, y: 1338.51
+    Vehicle ID: 7, x: 1360.08, y: 1500.64
+    Vehicle ID: 8, x: 1014.07, y: 1116.03
+    Vehicle ID: 9, x: 465.86, y: 1840.84
+Timestep: 17.00
+    Vehicle ID: 0, x: 1362.01, y: 1325.85
+    Vehicle ID: 1, x: 819.17, y: 1101.66
+    Vehicle ID: 2, x: 1358.86, y: 1617.40
+    Vehicle ID: 3, x: 1376.14, y: 1761.37
+    Vehicle ID: 4, x: 557.68, y: 1342.92
+    Vehicle ID: 5, x: 958.17, y: 1117.67
+    Vehicle ID: 6, x: 582.83, y: 1357.72
+    Vehicle ID: 7, x: 1360.24, y: 1481.14
+    Vehicle ID: 8, x: 995.03, y: 1116.54
+    Vehicle ID: 9, x: 477.12, y: 1840.16
+Timestep: 18.00
+    Vehicle ID: 0, x: 1362.33, y: 1296.92
+    Vehicle ID: 1, x: 839.14, y: 1101.08
+    Vehicle ID: 2, x: 1359.12, y: 1589.64
+    Vehicle ID: 3, x: 1367.12, y: 1761.70
+    Vehicle ID: 4, x: 552.88, y: 1320.67
+    Vehicle ID: 5, x: 939.80, y: 1118.23
+    Vehicle ID: 6, x: 590.52, y: 1378.77
+    Vehicle ID: 7, x: 1360.56, y: 1459.94
+    Vehicle ID: 8, x: 975.72, y: 1117.13
+    Vehicle ID: 9, x: 490.90, y: 1839.31
+Timestep: 19.00
+    Vehicle ID: 0, x: 1363.20, y: 1268.57
+    Vehicle ID: 1, x: 858.80, y: 1100.52
+    Vehicle ID: 2, x: 1359.48, y: 1561.68
+    Vehicle ID: 3, x: 1359.86, y: 1758.34
+    Vehicle ID: 4, x: 549.95, y: 1298.89
+    Vehicle ID: 5, x: 921.93, y: 1118.80
+    Vehicle ID: 6, x: 597.20, y: 1400.40
+    Vehicle ID: 7, x: 1360.83, y: 1436.18
+    Vehicle ID: 8, x: 955.86, y: 1117.74
+    Vehicle ID: 9, x: 506.43, y: 1838.36
+Timestep: 20.00
+    Vehicle ID: 0, x: 1364.30, y: 1239.57
+    Vehicle ID: 1, x: 878.72, y: 1099.95
+    Vehicle ID: 2, x: 1359.77, y: 1534.17
+    Vehicle ID: 3, x: 1354.97, y: 1752.40
+    Vehicle ID: 4, x: 548.76, y: 1277.28
+    Vehicle ID: 5, x: 904.33, y: 1119.48
+    Vehicle ID: 6, x: 601.73, y: 1422.15
+    Vehicle ID: 7, x: 1361.09, y: 1411.64
+    Vehicle ID: 8, x: 936.88, y: 1118.32
+    Vehicle ID: 9, x: 523.74, y: 1837.30
+Timestep: 21.00
+    Vehicle ID: 0, x: 1365.07, y: 1210.43
+    Vehicle ID: 1, x: 898.40, y: 1099.38
+    Vehicle ID: 3, x: 1355.30, y: 1744.42
+    Vehicle ID: 4, x: 548.52, y: 1255.49
+    Vehicle ID: 5, x: 886.26, y: 1120.19
+    Vehicle ID: 6, x: 604.16, y: 1443.97
+    Vehicle ID: 7, x: 1361.35, y: 1387.67
+    Vehicle ID: 8, x: 917.97, y: 1118.95
+    Vehicle ID: 9, x: 541.58, y: 1834.57
+Timestep: 22.00
+    Vehicle ID: 0, x: 1364.81, y: 1185.78
+    Vehicle ID: 1, x: 919.24, y: 1098.78
+    Vehicle ID: 3, x: 1356.95, y: 1734.73
+    Vehicle ID: 4, x: 548.77, y: 1233.74
+    Vehicle ID: 5, x: 868.73, y: 1120.87
+    Vehicle ID: 6, x: 605.10, y: 1466.16
+    Vehicle ID: 8, x: 899.22, y: 1119.68
+    Vehicle ID: 9, x: 558.10, y: 1825.44
+Timestep: 23.00
+    Vehicle ID: 0, x: 1364.79, y: 1165.63
+    Vehicle ID: 1, x: 939.66, y: 1098.20
+    Vehicle ID: 3, x: 1357.73, y: 1722.64
+    Vehicle ID: 4, x: 548.00, y: 1210.92
+    Vehicle ID: 5, x: 851.08, y: 1121.52
+    Vehicle ID: 6, x: 605.73, y: 1488.49
+    Vehicle ID: 8, x: 881.64, y: 1120.37
+    Vehicle ID: 9, x: 571.81, y: 1813.38
+Timestep: 24.00
+    Vehicle ID: 0, x: 1365.05, y: 1149.90
+    Vehicle ID: 1, x: 959.92, y: 1097.63
+    Vehicle ID: 3, x: 1357.88, y: 1708.60
+    Vehicle ID: 4, x: 547.10, y: 1191.87
+    Vehicle ID: 5, x: 832.98, y: 1122.17
+    Vehicle ID: 6, x: 606.34, y: 1510.44
+    Vehicle ID: 8, x: 863.67, y: 1121.06
+    Vehicle ID: 9, x: 582.34, y: 1798.33
+Timestep: 25.00
+    Vehicle ID: 0, x: 1359.83, y: 1139.37
+    Vehicle ID: 1, x: 979.99, y: 1097.06
+    Vehicle ID: 3, x: 1358.05, y: 1692.98
+    Vehicle ID: 4, x: 545.61, y: 1176.46
+    Vehicle ID: 5, x: 814.65, y: 1122.75
+    Vehicle ID: 6, x: 607.05, y: 1533.49
+    Vehicle ID: 8, x: 845.83, y: 1121.71
+    Vehicle ID: 9, x: 589.48, y: 1781.39
+Timestep: 26.00
+    Vehicle ID: 0, x: 1351.14, y: 1127.99
+    Vehicle ID: 1, x: 1000.57, y: 1096.47
+    Vehicle ID: 3, x: 1358.24, y: 1675.18
+    Vehicle ID: 4, x: 542.84, y: 1165.52
+    Vehicle ID: 5, x: 797.45, y: 1123.14
+    Vehicle ID: 6, x: 608.03, y: 1556.10
+    Vehicle ID: 8, x: 827.60, y: 1122.37
+    Vehicle ID: 9, x: 592.35, y: 1763.00
+Timestep: 27.00
+    Vehicle ID: 0, x: 1338.42, y: 1117.03
+    Vehicle ID: 1, x: 1021.32, y: 1095.64
+    Vehicle ID: 3, x: 1358.46, y: 1655.08
+    Vehicle ID: 4, x: 540.62, y: 1159.10
+    Vehicle ID: 5, x: 780.06, y: 1123.53
+    Vehicle ID: 6, x: 608.99, y: 1578.56
+    Vehicle ID: 8, x: 810.39, y: 1122.85
+    Vehicle ID: 9, x: 592.68, y: 1745.12
+Timestep: 28.00
+    Vehicle ID: 0, x: 1321.17, y: 1110.52
+    Vehicle ID: 1, x: 1041.25, y: 1095.20
+    Vehicle ID: 3, x: 1358.70, y: 1632.55
+    Vehicle ID: 4, x: 536.34, y: 1151.13
+    Vehicle ID: 5, x: 761.96, y: 1123.94
+    Vehicle ID: 6, x: 609.99, y: 1601.73
+    Vehicle ID: 8, x: 792.57, y: 1123.25
+    Vehicle ID: 9, x: 592.12, y: 1727.30
+Timestep: 29.00
+    Vehicle ID: 0, x: 1300.92, y: 1108.78
+    Vehicle ID: 1, x: 1061.84, y: 1094.78
+    Vehicle ID: 3, x: 1358.93, y: 1608.63
+    Vehicle ID: 4, x: 528.35, y: 1144.96
+    Vehicle ID: 5, x: 744.06, y: 1124.34
+    Vehicle ID: 6, x: 610.80, y: 1623.76
+    Vehicle ID: 8, x: 774.05, y: 1123.67
+    Vehicle ID: 9, x: 591.65, y: 1712.44
+Timestep: 30.00
+    Vehicle ID: 0, x: 1278.62, y: 1109.40
+    Vehicle ID: 1, x: 1081.80, y: 1094.37
+    Vehicle ID: 3, x: 1359.22, y: 1582.30
+    Vehicle ID: 4, x: 521.39, y: 1135.23
+    Vehicle ID: 5, x: 726.59, y: 1124.89
+    Vehicle ID: 6, x: 611.56, y: 1646.53
+    Vehicle ID: 8, x: 755.96, y: 1124.08
+    Vehicle ID: 9, x: 591.32, y: 1702.07
+Timestep: 31.00
+    Vehicle ID: 0, x: 1255.70, y: 1110.04
+    Vehicle ID: 1, x: 1101.67, y: 1093.96
+    Vehicle ID: 3, x: 1359.56, y: 1554.66
+    Vehicle ID: 4, x: 518.27, y: 1121.33
+    Vehicle ID: 5, x: 709.30, y: 1125.60
+    Vehicle ID: 6, x: 612.23, y: 1668.56
+    Vehicle ID: 8, x: 738.56, y: 1124.47
+    Vehicle ID: 9, x: 591.13, y: 1696.21
+Timestep: 32.00
+    Vehicle ID: 0, x: 1233.06, y: 1110.61
+    Vehicle ID: 1, x: 1122.31, y: 1093.53
+    Vehicle ID: 3, x: 1359.86, y: 1524.92
+    Vehicle ID: 4, x: 521.23, y: 1106.11
+    Vehicle ID: 5, x: 691.77, y: 1126.31
+    Vehicle ID: 6, x: 612.68, y: 1690.74
+    Vehicle ID: 8, x: 720.46, y: 1125.14
+    Vehicle ID: 9, x: 591.60, y: 1692.01
+Timestep: 33.00
+    Vehicle ID: 0, x: 1210.79, y: 1111.17
+    Vehicle ID: 1, x: 1142.42, y: 1093.12
+    Vehicle ID: 3, x: 1360.12, y: 1495.24
+    Vehicle ID: 4, x: 531.50, y: 1092.67
+    Vehicle ID: 5, x: 673.38, y: 1127.06
+    Vehicle ID: 6, x: 612.87, y: 1713.80
+    Vehicle ID: 8, x: 702.75, y: 1125.86
+    Vehicle ID: 9, x: 595.06, y: 1689.75
+Timestep: 34.00
+    Vehicle ID: 0, x: 1187.34, y: 1111.76
+    Vehicle ID: 1, x: 1163.21, y: 1092.69
+    Vehicle ID: 3, x: 1360.46, y: 1466.43
+    Vehicle ID: 4, x: 549.44, y: 1085.34
+    Vehicle ID: 5, x: 655.40, y: 1127.79
+    Vehicle ID: 6, x: 613.03, y: 1736.80
+    Vehicle ID: 8, x: 684.43, y: 1126.61
+    Vehicle ID: 9, x: 602.06, y: 1689.70
+Timestep: 35.00
+    Vehicle ID: 0, x: 1164.13, y: 1112.34
+    Vehicle ID: 1, x: 1183.67, y: 1092.28
+    Vehicle ID: 3, x: 1360.83, y: 1436.52
+    Vehicle ID: 4, x: 570.83, y: 1089.56
+    Vehicle ID: 5, x: 636.96, y: 1128.53
+    Vehicle ID: 6, x: 614.57, y: 1758.70
+    Vehicle ID: 8, x: 665.80, y: 1127.36
+    Vehicle ID: 9, x: 606.87, y: 1689.66
+Timestep: 36.00
+    Vehicle ID: 0, x: 1141.40, y: 1112.92
+    Vehicle ID: 1, x: 1204.35, y: 1091.85
+    Vehicle ID: 3, x: 1361.14, y: 1406.87
+    Vehicle ID: 4, x: 585.66, y: 1105.79
+    Vehicle ID: 5, x: 618.94, y: 1129.27
+    Vehicle ID: 6, x: 619.40, y: 1780.33
+    Vehicle ID: 8, x: 647.69, y: 1128.10
+    Vehicle ID: 9, x: 609.79, y: 1689.78
+Timestep: 37.00
+    Vehicle ID: 0, x: 1118.21, y: 1113.50
+    Vehicle ID: 1, x: 1224.84, y: 1091.44
+    Vehicle ID: 3, x: 1361.46, y: 1377.41
+    Vehicle ID: 4, x: 587.79, y: 1128.08
+    Vehicle ID: 5, x: 605.45, y: 1130.31
+    Vehicle ID: 6, x: 629.62, y: 1800.11
+    Vehicle ID: 8, x: 629.91, y: 1128.82
+    Vehicle ID: 9, x: 610.92, y: 1691.74
+Timestep: 38.00
+    Vehicle ID: 0, x: 1094.68, y: 1114.10
+    Vehicle ID: 1, x: 1244.68, y: 1091.03
+    Vehicle ID: 3, x: 1361.77, y: 1347.98
+    Vehicle ID: 4, x: 576.77, y: 1146.67
+    Vehicle ID: 5, x: 596.55, y: 1131.83
+    Vehicle ID: 6, x: 645.48, y: 1816.55
+    Vehicle ID: 8, x: 615.91, y: 1129.46
+    Vehicle ID: 9, x: 608.39, y: 1692.85
+Timestep: 39.00
+    Vehicle ID: 0, x: 1071.91, y: 1114.67
+    Vehicle ID: 1, x: 1264.75, y: 1090.61
+    Vehicle ID: 3, x: 1362.09, y: 1318.77
+    Vehicle ID: 4, x: 569.43, y: 1162.46
+    Vehicle ID: 5, x: 589.36, y: 1133.78
+    Vehicle ID: 6, x: 664.50, y: 1829.76
+    Vehicle ID: 8, x: 606.43, y: 1130.19
+    Vehicle ID: 9, x: 603.75, y: 1692.89
+Timestep: 40.00
+    Vehicle ID: 0, x: 1048.51, y: 1115.26
+    Vehicle ID: 1, x: 1285.05, y: 1089.32
+    Vehicle ID: 3, x: 1362.44, y: 1289.92
+    Vehicle ID: 4, x: 566.18, y: 1182.23
+    Vehicle ID: 5, x: 584.25, y: 1137.47
+    Vehicle ID: 6, x: 684.23, y: 1841.28
+    Vehicle ID: 8, x: 598.40, y: 1131.45
+    Vehicle ID: 9, x: 597.60, y: 1692.93
+Timestep: 41.00
+    Vehicle ID: 0, x: 1025.10, y: 1115.85
+    Vehicle ID: 1, x: 1303.60, y: 1086.63
+    Vehicle ID: 3, x: 1363.51, y: 1260.41
+    Vehicle ID: 4, x: 566.35, y: 1204.32
+    Vehicle ID: 5, x: 579.58, y: 1143.99
+    Vehicle ID: 6, x: 706.94, y: 1842.21
+    Vehicle ID: 8, x: 593.01, y: 1132.67
+Timestep: 42.00
+    Vehicle ID: 0, x: 1001.75, y: 1116.33
+    Vehicle ID: 1, x: 1317.24, y: 1082.15
+    Vehicle ID: 3, x: 1364.63, y: 1230.78
+    Vehicle ID: 4, x: 566.42, y: 1226.97
+    Vehicle ID: 5, x: 573.04, y: 1152.06
+    Vehicle ID: 6, x: 729.72, y: 1841.85
+    Vehicle ID: 8, x: 585.78, y: 1135.30
+Timestep: 43.00
+    Vehicle ID: 0, x: 978.28, y: 1117.05
+    Vehicle ID: 1, x: 1326.52, y: 1078.86
+    Vehicle ID: 3, x: 1365.01, y: 1204.16
+    Vehicle ID: 4, x: 566.77, y: 1248.98
+    Vehicle ID: 5, x: 568.93, y: 1164.09
+    Vehicle ID: 6, x: 752.28, y: 1841.49
+    Vehicle ID: 8, x: 581.32, y: 1142.20
+Timestep: 44.00
+    Vehicle ID: 0, x: 955.41, y: 1117.76
+    Vehicle ID: 1, x: 1331.35, y: 1079.91
+    Vehicle ID: 3, x: 1364.77, y: 1182.02
+    Vehicle ID: 4, x: 567.19, y: 1271.12
+    Vehicle ID: 5, x: 566.47, y: 1178.96
+    Vehicle ID: 6, x: 774.72, y: 1841.13
+    Vehicle ID: 8, x: 574.24, y: 1149.39
+Timestep: 45.00
+    Vehicle ID: 0, x: 932.69, y: 1118.45
+    Vehicle ID: 1, x: 1334.30, y: 1083.73
+    Vehicle ID: 3, x: 1364.82, y: 1163.73
+    Vehicle ID: 4, x: 568.13, y: 1293.92
+    Vehicle ID: 5, x: 566.33, y: 1196.25
+    Vehicle ID: 6, x: 797.13, y: 1840.77
+    Vehicle ID: 8, x: 569.84, y: 1161.13
+Timestep: 46.00
+    Vehicle ID: 0, x: 909.59, y: 1119.28
+    Vehicle ID: 1, x: 1336.60, y: 1090.29
+    Vehicle ID: 3, x: 1365.05, y: 1149.69
+    Vehicle ID: 5, x: 566.38, y: 1214.35
+    Vehicle ID: 6, x: 819.28, y: 1840.41
+    Vehicle ID: 8, x: 566.77, y: 1175.54
+Timestep: 47.00
+    Vehicle ID: 0, x: 886.70, y: 1120.17
+    Vehicle ID: 1, x: 1334.02, y: 1099.12
+    Vehicle ID: 3, x: 1359.25, y: 1138.48
+    Vehicle ID: 5, x: 566.49, y: 1232.44
+    Vehicle ID: 6, x: 842.06, y: 1840.05
+    Vehicle ID: 8, x: 566.32, y: 1191.77
+Timestep: 48.00
+    Vehicle ID: 0, x: 864.07, y: 1121.05
+    Vehicle ID: 1, x: 1327.65, y: 1104.99
+    Vehicle ID: 3, x: 1350.16, y: 1127.10
+    Vehicle ID: 5, x: 566.78, y: 1249.77
+    Vehicle ID: 6, x: 864.56, y: 1839.69
+    Vehicle ID: 8, x: 566.37, y: 1210.16
+Timestep: 49.00
+    Vehicle ID: 0, x: 840.81, y: 1121.89
+    Vehicle ID: 1, x: 1324.00, y: 1107.23
+    Vehicle ID: 3, x: 1337.70, y: 1116.43
+    Vehicle ID: 5, x: 567.08, y: 1267.65
+    Vehicle ID: 6, x: 887.09, y: 1839.33
+    Vehicle ID: 8, x: 566.45, y: 1229.32
+Timestep: 50.00
+    Vehicle ID: 0, x: 817.51, y: 1122.69
+    Vehicle ID: 1, x: 1323.64, y: 1107.35
+    Vehicle ID: 3, x: 1320.39, y: 1110.20
+    Vehicle ID: 5, x: 567.65, y: 1285.23
+    Vehicle ID: 6, x: 909.67, y: 1838.97
+    Vehicle ID: 8, x: 566.77, y: 1249.14
+Timestep: 51.00
+    Vehicle ID: 0, x: 794.91, y: 1123.20
+    Vehicle ID: 1, x: 1323.61, y: 1107.36
+    Vehicle ID: 3, x: 1299.63, y: 1108.81
+    Vehicle ID: 5, x: 568.69, y: 1302.80
+    Vehicle ID: 6, x: 931.64, y: 1838.61
+    Vehicle ID: 8, x: 567.11, y: 1268.66
+Timestep: 52.00
+    Vehicle ID: 0, x: 771.61, y: 1123.72
+    Vehicle ID: 1, x: 1322.31, y: 1107.87
+    Vehicle ID: 3, x: 1276.65, y: 1109.46
+    Vehicle ID: 5, x: 571.48, y: 1320.85
+    Vehicle ID: 6, x: 954.20, y: 1838.25
+    Vehicle ID: 8, x: 567.75, y: 1287.92
+Timestep: 53.00
+    Vehicle ID: 0, x: 748.95, y: 1124.23
+    Vehicle ID: 1, x: 1319.06, y: 1109.07
+    Vehicle ID: 3, x: 1252.69, y: 1110.11
+    Vehicle ID: 5, x: 575.81, y: 1337.85
+    Vehicle ID: 6, x: 976.58, y: 1837.89
+    Vehicle ID: 8, x: 569.03, y: 1307.17
+Timestep: 54.00
+    Vehicle ID: 0, x: 726.57, y: 1124.89
+    Vehicle ID: 1, x: 1313.03, y: 1109.05
+    Vehicle ID: 3, x: 1229.17, y: 1110.70
+    Vehicle ID: 5, x: 581.81, y: 1354.98
+    Vehicle ID: 6, x: 999.20, y: 1837.53
+    Vehicle ID: 8, x: 572.42, y: 1325.13
+Timestep: 55.00
+    Vehicle ID: 0, x: 703.75, y: 1125.82
+    Vehicle ID: 1, x: 1305.08, y: 1108.66
+    Vehicle ID: 3, x: 1206.21, y: 1111.29
+    Vehicle ID: 5, x: 588.05, y: 1371.90
+    Vehicle ID: 6, x: 1021.69, y: 1837.17
+    Vehicle ID: 8, x: 577.72, y: 1343.54
+Timestep: 56.00
+    Vehicle ID: 0, x: 681.18, y: 1126.74
+    Vehicle ID: 1, x: 1295.06, y: 1108.94
+    Vehicle ID: 3, x: 1182.67, y: 1111.88
+    Vehicle ID: 5, x: 594.19, y: 1389.01
+    Vehicle ID: 6, x: 1043.84, y: 1836.82
+    Vehicle ID: 8, x: 583.88, y: 1360.55
+Timestep: 57.00
+    Vehicle ID: 0, x: 657.65, y: 1127.69
+    Vehicle ID: 1, x: 1283.17, y: 1109.27
+    Vehicle ID: 3, x: 1159.61, y: 1112.46
+    Vehicle ID: 5, x: 598.62, y: 1405.80
+    Vehicle ID: 6, x: 1066.52, y: 1836.45
+    Vehicle ID: 8, x: 590.28, y: 1378.10
+Timestep: 58.00
+    Vehicle ID: 0, x: 636.17, y: 1128.57
+    Vehicle ID: 1, x: 1269.54, y: 1109.66
+    Vehicle ID: 3, x: 1136.77, y: 1113.03
+    Vehicle ID: 5, x: 601.82, y: 1422.69
+    Vehicle ID: 6, x: 1089.75, y: 1836.08
+    Vehicle ID: 8, x: 595.89, y: 1395.39
+Timestep: 59.00
+    Vehicle ID: 0, x: 618.51, y: 1129.29
+    Vehicle ID: 1, x: 1253.86, y: 1110.08
+    Vehicle ID: 3, x: 1113.51, y: 1113.62
+    Vehicle ID: 5, x: 603.89, y: 1440.71
+    Vehicle ID: 6, x: 1112.35, y: 1835.72
+    Vehicle ID: 8, x: 599.95, y: 1411.76
+Timestep: 60.00
+    Vehicle ID: 0, x: 605.38, y: 1130.32
+    Vehicle ID: 1, x: 1236.30, y: 1110.52
+    Vehicle ID: 3, x: 1090.20, y: 1114.21
+    Vehicle ID: 5, x: 604.89, y: 1458.69
+    Vehicle ID: 6, x: 1134.97, y: 1835.36
+    Vehicle ID: 8, x: 603.03, y: 1430.14
+Timestep: 61.00
+    Vehicle ID: 0, x: 596.29, y: 1131.89
+    Vehicle ID: 1, x: 1216.87, y: 1111.02
+    Vehicle ID: 3, x: 1066.81, y: 1114.80
+    Vehicle ID: 5, x: 605.40, y: 1476.75
+    Vehicle ID: 6, x: 1156.96, y: 1835.01
+    Vehicle ID: 8, x: 604.54, y: 1448.61
+Timestep: 62.00
+    Vehicle ID: 0, x: 587.66, y: 1134.27
+    Vehicle ID: 1, x: 1197.22, y: 1111.51
+    Vehicle ID: 3, x: 1043.83, y: 1115.38
+    Vehicle ID: 5, x: 605.90, y: 1494.50
+    Vehicle ID: 6, x: 1180.01, y: 1834.64
+    Vehicle ID: 8, x: 605.09, y: 1466.00
+Timestep: 63.00
+    Vehicle ID: 0, x: 582.17, y: 1140.82
+    Vehicle ID: 1, x: 1176.63, y: 1112.03
+    Vehicle ID: 3, x: 1020.67, y: 1115.94
+    Vehicle ID: 5, x: 606.40, y: 1512.32
+    Vehicle ID: 6, x: 1202.74, y: 1834.27
+    Vehicle ID: 8, x: 605.59, y: 1483.70
+Timestep: 64.00
+    Vehicle ID: 0, x: 574.45, y: 1149.10
+    Vehicle ID: 1, x: 1156.61, y: 1112.53
+    Vehicle ID: 3, x: 996.90, y: 1116.48
+    Vehicle ID: 5, x: 606.90, y: 1529.62
+    Vehicle ID: 6, x: 1225.44, y: 1833.91
+    Vehicle ID: 8, x: 606.10, y: 1501.78
+Timestep: 65.00
+    Vehicle ID: 0, x: 569.72, y: 1161.51
+    Vehicle ID: 1, x: 1136.08, y: 1113.05
+    Vehicle ID: 3, x: 973.10, y: 1117.21
+    Vehicle ID: 5, x: 607.66, y: 1547.59
+    Vehicle ID: 6, x: 1248.15, y: 1833.55
+    Vehicle ID: 8, x: 606.60, y: 1519.55
+Timestep: 66.00
+    Vehicle ID: 0, x: 566.74, y: 1175.92
+    Vehicle ID: 1, x: 1116.27, y: 1113.55
+    Vehicle ID: 3, x: 949.05, y: 1117.95
+    Vehicle ID: 5, x: 608.41, y: 1565.08
+    Vehicle ID: 6, x: 1268.45, y: 1833.22
+    Vehicle ID: 8, x: 607.23, y: 1537.64
+Timestep: 67.00
+    Vehicle ID: 0, x: 566.32, y: 1192.48
+    Vehicle ID: 1, x: 1095.68, y: 1114.07
+    Vehicle ID: 3, x: 926.14, y: 1118.65
+    Vehicle ID: 5, x: 609.19, y: 1583.11
+    Vehicle ID: 6, x: 1284.24, y: 1832.97
+    Vehicle ID: 8, x: 607.99, y: 1555.30
+Timestep: 68.00
+    Vehicle ID: 0, x: 566.37, y: 1210.67
+    Vehicle ID: 1, x: 1075.13, y: 1114.59
+    Vehicle ID: 3, x: 902.84, y: 1119.54
+    Vehicle ID: 5, x: 609.95, y: 1600.89
+    Vehicle ID: 6, x: 1295.54, y: 1832.79
+    Vehicle ID: 8, x: 608.77, y: 1573.43
+Timestep: 69.00
+    Vehicle ID: 0, x: 566.47, y: 1231.39
+    Vehicle ID: 1, x: 1054.33, y: 1115.11
+    Vehicle ID: 3, x: 879.55, y: 1120.45
+    Vehicle ID: 5, x: 610.62, y: 1618.47
+    Vehicle ID: 6, x: 1302.34, y: 1832.68
+    Vehicle ID: 8, x: 609.52, y: 1590.94
+Timestep: 70.00
+    Vehicle ID: 0, x: 566.85, y: 1253.82
+    Vehicle ID: 1, x: 1034.44, y: 1115.61
+    Vehicle ID: 3, x: 855.62, y: 1121.35
+    Vehicle ID: 5, x: 611.21, y: 1635.95
+    Vehicle ID: 6, x: 1308.12, y: 1832.05
+    Vehicle ID: 8, x: 610.27, y: 1608.60
+Timestep: 71.00
+    Vehicle ID: 0, x: 567.37, y: 1276.62
+    Vehicle ID: 1, x: 1014.47, y: 1116.02
+    Vehicle ID: 3, x: 831.95, y: 1122.21
+    Vehicle ID: 5, x: 611.80, y: 1653.75
+    Vehicle ID: 6, x: 1311.76, y: 1827.07
+    Vehicle ID: 8, x: 610.88, y: 1626.30
+Timestep: 72.00
+    Vehicle ID: 0, x: 568.50, y: 1299.83
+    Vehicle ID: 1, x: 994.20, y: 1116.57
+    Vehicle ID: 3, x: 808.00, y: 1122.90
+    Vehicle ID: 5, x: 612.30, y: 1671.73
+    Vehicle ID: 6, x: 1314.59, y: 1819.21
+    Vehicle ID: 8, x: 611.47, y: 1643.67
+Timestep: 73.00
+    Vehicle ID: 1, x: 974.27, y: 1117.18
+    Vehicle ID: 3, x: 785.23, y: 1123.42
+    Vehicle ID: 5, x: 612.66, y: 1689.27
+    Vehicle ID: 6, x: 1319.71, y: 1809.83
+    Vehicle ID: 8, x: 612.08, y: 1661.88
+Timestep: 74.00
+    Vehicle ID: 1, x: 953.77, y: 1117.81
+    Vehicle ID: 3, x: 761.24, y: 1123.96
+    Vehicle ID: 5, x: 612.83, y: 1707.17
+    Vehicle ID: 6, x: 1328.23, y: 1800.47
+    Vehicle ID: 8, x: 612.46, y: 1679.05
+Timestep: 75.00
+    Vehicle ID: 1, x: 934.01, y: 1118.41
+    Vehicle ID: 3, x: 737.79, y: 1124.49
+    Vehicle ID: 5, x: 612.95, y: 1724.77
+    Vehicle ID: 6, x: 1338.06, y: 1790.38
+    Vehicle ID: 8, x: 612.75, y: 1696.21
+Timestep: 76.00
+    Vehicle ID: 1, x: 913.25, y: 1119.13
+    Vehicle ID: 3, x: 714.85, y: 1125.37
+    Vehicle ID: 5, x: 613.07, y: 1742.90
+    Vehicle ID: 6, x: 1345.84, y: 1775.45
+    Vehicle ID: 8, x: 612.87, y: 1714.04
+Timestep: 77.00
+    Vehicle ID: 1, x: 893.07, y: 1119.92
+    Vehicle ID: 3, x: 691.42, y: 1126.33
+    Vehicle ID: 5, x: 614.86, y: 1760.97
+    Vehicle ID: 6, x: 1352.42, y: 1757.33
+    Vehicle ID: 8, x: 613.00, y: 1732.66
+Timestep: 78.00
+    Vehicle ID: 1, x: 872.25, y: 1120.73
+    Vehicle ID: 3, x: 667.97, y: 1127.28
+    Vehicle ID: 5, x: 618.74, y: 1778.30
+    Vehicle ID: 6, x: 1356.68, y: 1737.10
+    Vehicle ID: 8, x: 613.46, y: 1750.07
+Timestep: 79.00
+    Vehicle ID: 3, x: 644.99, y: 1128.21
+    Vehicle ID: 5, x: 626.17, y: 1793.96
+    Vehicle ID: 6, x: 1357.83, y: 1714.13
+    Vehicle ID: 8, x: 615.80, y: 1768.36
+Timestep: 80.00
+    Vehicle ID: 3, x: 625.64, y: 1128.99
+    Vehicle ID: 5, x: 636.62, y: 1808.32
+    Vehicle ID: 6, x: 1358.09, y: 1689.46
+    Vehicle ID: 8, x: 621.14, y: 1785.65
+Timestep: 81.00
+    Vehicle ID: 3, x: 610.07, y: 1129.86
+    Vehicle ID: 5, x: 650.39, y: 1820.47
+    Vehicle ID: 6, x: 1358.37, y: 1663.32
+    Vehicle ID: 8, x: 629.85, y: 1800.49
+Timestep: 82.00
+    Vehicle ID: 3, x: 599.08, y: 1131.30
+    Vehicle ID: 5, x: 665.48, y: 1830.33
+    Vehicle ID: 6, x: 1358.68, y: 1635.14
+    Vehicle ID: 8, x: 641.84, y: 1813.61
+Timestep: 83.00
+    Vehicle ID: 3, x: 592.65, y: 1132.78
+    Vehicle ID: 5, x: 681.21, y: 1839.52
+    Vehicle ID: 6, x: 1358.95, y: 1606.61
+    Vehicle ID: 8, x: 656.58, y: 1824.81
+Timestep: 84.00
+    Vehicle ID: 3, x: 585.43, y: 1135.76
+    Vehicle ID: 5, x: 698.26, y: 1842.35
+    Vehicle ID: 6, x: 1359.28, y: 1578.12
+    Vehicle ID: 8, x: 671.60, y: 1833.90
+Timestep: 85.00
+    Vehicle ID: 3, x: 580.33, y: 1143.28
+    Vehicle ID: 5, x: 716.22, y: 1842.06
+    Vehicle ID: 6, x: 1359.62, y: 1549.88
+    Vehicle ID: 8, x: 686.76, y: 1842.53
+Timestep: 86.00
+    Vehicle ID: 3, x: 573.31, y: 1151.27
+    Vehicle ID: 5, x: 734.35, y: 1841.77
+    Vehicle ID: 6, x: 1359.90, y: 1522.02
+    Vehicle ID: 8, x: 705.50, y: 1842.23
+Timestep: 87.00
+    Vehicle ID: 3, x: 569.25, y: 1163.05
+    Vehicle ID: 5, x: 752.40, y: 1841.48
+    Vehicle ID: 6, x: 1360.13, y: 1493.29
+    Vehicle ID: 8, x: 724.18, y: 1841.93
+Timestep: 88.00
+    Vehicle ID: 3, x: 566.61, y: 1177.29
+    Vehicle ID: 5, x: 770.15, y: 1841.20
+    Vehicle ID: 6, x: 1360.48, y: 1465.03
+    Vehicle ID: 8, x: 742.14, y: 1841.65
+Timestep: 89.00
+    Vehicle ID: 3, x: 566.33, y: 1193.24
+    Vehicle ID: 5, x: 788.50, y: 1840.91
+    Vehicle ID: 6, x: 1360.83, y: 1436.75
+    Vehicle ID: 8, x: 759.47, y: 1841.37
+Timestep: 90.00
+    Vehicle ID: 3, x: 566.37, y: 1211.32
+    Vehicle ID: 5, x: 806.54, y: 1840.62
+    Vehicle ID: 6, x: 1361.13, y: 1407.78
+    Vehicle ID: 8, x: 777.32, y: 1841.08
+Timestep: 91.00
+    Vehicle ID: 3, x: 566.48, y: 1231.96
+    Vehicle ID: 5, x: 823.76, y: 1840.34
+    Vehicle ID: 6, x: 1361.44, y: 1379.49
+    Vehicle ID: 8, x: 795.59, y: 1840.79
+Timestep: 92.00
+    Vehicle ID: 3, x: 566.87, y: 1254.76
+    Vehicle ID: 5, x: 841.33, y: 1840.06
+    Vehicle ID: 6, x: 1361.73, y: 1351.14
+    Vehicle ID: 8, x: 813.14, y: 1840.51
+Timestep: 93.00
+    Vehicle ID: 3, x: 567.41, y: 1278.01
+    Vehicle ID: 5, x: 859.41, y: 1839.77
+    Vehicle ID: 6, x: 1362.04, y: 1322.92
+    Vehicle ID: 8, x: 830.59, y: 1840.23
+Timestep: 94.00
+    Vehicle ID: 3, x: 568.64, y: 1301.98
+    Vehicle ID: 5, x: 877.84, y: 1839.47
+    Vehicle ID: 6, x: 1362.36, y: 1294.26
+    Vehicle ID: 8, x: 849.24, y: 1839.93
+Timestep: 95.00
+    Vehicle ID: 3, x: 572.25, y: 1324.49
+    Vehicle ID: 5, x: 895.64, y: 1839.19
+    Vehicle ID: 6, x: 1363.28, y: 1266.39
+    Vehicle ID: 8, x: 867.02, y: 1839.65
+Timestep: 96.00
+    Vehicle ID: 3, x: 579.04, y: 1347.23
+    Vehicle ID: 5, x: 913.52, y: 1838.90
+    Vehicle ID: 6, x: 1364.34, y: 1238.56
+    Vehicle ID: 8, x: 884.67, y: 1839.37
+Timestep: 97.00
+    Vehicle ID: 3, x: 587.26, y: 1369.73
+    Vehicle ID: 5, x: 931.29, y: 1838.62
+    Vehicle ID: 6, x: 1365.08, y: 1210.73
+    Vehicle ID: 8, x: 902.62, y: 1839.08
+Timestep: 98.00
+    Vehicle ID: 3, x: 595.09, y: 1392.32
+    Vehicle ID: 5, x: 948.54, y: 1838.34
+    Vehicle ID: 6, x: 1364.81, y: 1185.92
+    Vehicle ID: 8, x: 920.63, y: 1838.79
+Timestep: 99.00
+    Vehicle ID: 3, x: 600.51, y: 1415.04
+    Vehicle ID: 5, x: 966.93, y: 1838.05
+    Vehicle ID: 6, x: 1364.79, y: 1165.61
+    Vehicle ID: 8, x: 937.66, y: 1838.52
+Timestep: 100.00
+    Vehicle ID: 3, x: 603.65, y: 1437.71
+    Vehicle ID: 5, x: 984.46, y: 1837.77
+    Vehicle ID: 6, x: 1365.05, y: 1149.80
+    Vehicle ID: 8, x: 955.75, y: 1838.23
+Timestep: 101.00
+    Vehicle ID: 3, x: 604.94, y: 1460.55
+    Vehicle ID: 5, x: 1002.03, y: 1837.49
+    Vehicle ID: 6, x: 1359.52, y: 1138.89
+    Vehicle ID: 8, x: 974.00, y: 1837.94
+Timestep: 102.00
+    Vehicle ID: 3, x: 605.59, y: 1483.52
+    Vehicle ID: 5, x: 1019.74, y: 1837.20
+    Vehicle ID: 6, x: 1350.71, y: 1127.60
+    Vehicle ID: 8, x: 992.10, y: 1837.65
+Timestep: 103.00
+    Vehicle ID: 3, x: 606.24, y: 1506.78
+    Vehicle ID: 5, x: 1037.78, y: 1836.91
+    Vehicle ID: 6, x: 1338.71, y: 1117.27
+    Vehicle ID: 8, x: 1009.17, y: 1837.37
+Timestep: 104.00
+    Vehicle ID: 3, x: 606.91, y: 1529.96
+    Vehicle ID: 5, x: 1055.86, y: 1836.62
+    Vehicle ID: 6, x: 1322.74, y: 1111.12
+    Vehicle ID: 8, x: 1026.96, y: 1837.09
+Timestep: 105.00
+    Vehicle ID: 3, x: 607.92, y: 1553.61
+    Vehicle ID: 5, x: 1073.04, y: 1836.35
+    Vehicle ID: 6, x: 1304.48, y: 1108.68
+    Vehicle ID: 8, x: 1045.60, y: 1836.79
+Timestep: 106.00
+    Vehicle ID: 3, x: 608.90, y: 1576.46
+    Vehicle ID: 5, x: 1090.29, y: 1836.07
+    Vehicle ID: 6, x: 1284.32, y: 1109.24
+    Vehicle ID: 8, x: 1062.29, y: 1836.52
+Timestep: 107.00
+    Vehicle ID: 3, x: 609.91, y: 1600.05
+    Vehicle ID: 5, x: 1108.40, y: 1835.78
+    Vehicle ID: 6, x: 1262.83, y: 1109.85
+    Vehicle ID: 8, x: 1079.73, y: 1836.24
+Timestep: 108.00
+    Vehicle ID: 3, x: 610.80, y: 1623.96
+    Vehicle ID: 5, x: 1125.65, y: 1835.51
+    Vehicle ID: 6, x: 1240.30, y: 1110.42
+    Vehicle ID: 8, x: 1098.39, y: 1835.94
+Timestep: 109.00
+    Vehicle ID: 3, x: 611.61, y: 1647.86
+    Vehicle ID: 5, x: 1142.90, y: 1835.23
+    Vehicle ID: 8, x: 1115.83, y: 1835.66
+Timestep: 110.00
+    Vehicle ID: 3, x: 612.28, y: 1670.62
+    Vehicle ID: 5, x: 1161.22, y: 1834.94
+    Vehicle ID: 8, x: 1132.44, y: 1835.40
+Timestep: 111.00
+    Vehicle ID: 5, x: 1178.38, y: 1834.66
+    Vehicle ID: 8, x: 1150.29, y: 1835.11
+Timestep: 112.00
+    Vehicle ID: 5, x: 1196.43, y: 1834.37
+    Vehicle ID: 8, x: 1168.23, y: 1834.83
+Timestep: 113.00
+    Vehicle ID: 5, x: 1213.94, y: 1834.09
+    Vehicle ID: 8, x: 1186.08, y: 1834.54
+Timestep: 114.00
+    Vehicle ID: 5, x: 1231.23, y: 1833.82
+    Vehicle ID: 8, x: 1203.36, y: 1834.26
+Timestep: 115.00
+    Vehicle ID: 5, x: 1249.10, y: 1833.53
+    Vehicle ID: 8, x: 1220.23, y: 1833.99
+Timestep: 116.00
+    Vehicle ID: 5, x: 1267.30, y: 1833.24
+    Vehicle ID: 8, x: 1238.31, y: 1833.70
+Timestep: 117.00
+    Vehicle ID: 5, x: 1283.32, y: 1832.98
+    Vehicle ID: 8, x: 1255.89, y: 1833.42
+Timestep: 118.00
+    Vehicle ID: 5, x: 1294.85, y: 1832.80
+    Vehicle ID: 8, x: 1272.61, y: 1833.15
+Timestep: 119.00
+    Vehicle ID: 5, x: 1301.88, y: 1832.69
+    Vehicle ID: 8, x: 1284.83, y: 1832.96
+Timestep: 120.00
+    Vehicle ID: 5, x: 1306.61, y: 1832.47
+    Vehicle ID: 8, x: 1292.68, y: 1832.83
+Timestep: 121.00
+    Vehicle ID: 5, x: 1310.58, y: 1829.88
+    Vehicle ID: 8, x: 1297.98, y: 1832.75
+Timestep: 122.00
+    Vehicle ID: 5, x: 1312.62, y: 1824.68
+    Vehicle ID: 8, x: 1303.51, y: 1832.66
+Timestep: 123.00
+    Vehicle ID: 5, x: 1315.27, y: 1817.33
+    Vehicle ID: 8, x: 1308.18, y: 1832.03
+Timestep: 124.00
+    Vehicle ID: 5, x: 1320.50, y: 1808.67
+    Vehicle ID: 8, x: 1311.48, y: 1827.85
+Timestep: 125.00
+    Vehicle ID: 5, x: 1328.95, y: 1799.93
+    Vehicle ID: 8, x: 1313.84, y: 1821.29
+Timestep: 126.00
+    Vehicle ID: 5, x: 1338.66, y: 1789.26
+    Vehicle ID: 8, x: 1317.47, y: 1813.13
+Timestep: 127.00
+    Vehicle ID: 5, x: 1346.04, y: 1774.95
+    Vehicle ID: 8, x: 1324.19, y: 1804.50
+Timestep: 128.00
+    Vehicle ID: 5, x: 1352.08, y: 1758.41
+    Vehicle ID: 8, x: 1334.38, y: 1795.76
+Timestep: 129.00
+    Vehicle ID: 5, x: 1356.36, y: 1738.81
+    Vehicle ID: 8, x: 1342.41, y: 1782.45
+Timestep: 130.00
+    Vehicle ID: 5, x: 1357.80, y: 1716.58
+    Vehicle ID: 8, x: 1349.49, y: 1766.49
+Timestep: 131.00
+    Vehicle ID: 5, x: 1358.04, y: 1693.99
+    Vehicle ID: 8, x: 1354.78, y: 1747.17
+Timestep: 132.00
+    Vehicle ID: 5, x: 1358.28, y: 1671.43
+    Vehicle ID: 8, x: 1357.71, y: 1725.34
+Timestep: 133.00
+    Vehicle ID: 5, x: 1358.53, y: 1648.73
+    Vehicle ID: 8, x: 1357.96, y: 1701.23
+Timestep: 134.00
+    Vehicle ID: 5, x: 1358.77, y: 1626.50
+    Vehicle ID: 8, x: 1358.24, y: 1675.44
+Timestep: 135.00
+    Vehicle ID: 5, x: 1358.97, y: 1604.02
+    Vehicle ID: 8, x: 1358.51, y: 1650.46
+Timestep: 136.00
+    Vehicle ID: 5, x: 1359.23, y: 1581.58
+    Vehicle ID: 8, x: 1358.78, y: 1625.66
+Timestep: 137.00
+    Vehicle ID: 5, x: 1359.51, y: 1558.93
+    Vehicle ID: 8, x: 1359.00, y: 1601.22
+Timestep: 138.00
+    Vehicle ID: 5, x: 1359.74, y: 1536.18
+    Vehicle ID: 8, x: 1359.29, y: 1577.11
+Timestep: 139.00
+    Vehicle ID: 5, x: 1359.98, y: 1513.94
+    Vehicle ID: 8, x: 1359.58, y: 1553.16
+Timestep: 140.00
+    Vehicle ID: 5, x: 1360.14, y: 1492.11
+    Vehicle ID: 8, x: 1359.81, y: 1530.30
+Timestep: 141.00
+    Vehicle ID: 5, x: 1360.41, y: 1470.18
+    Vehicle ID: 8, x: 1360.03, y: 1507.38
+Timestep: 142.00
+    Vehicle ID: 5, x: 1360.70, y: 1448.10
+    Vehicle ID: 8, x: 1360.20, y: 1484.51
+Timestep: 143.00
+    Vehicle ID: 5, x: 1360.94, y: 1426.00
+    Vehicle ID: 8, x: 1360.53, y: 1461.62
+Timestep: 144.00
+    Vehicle ID: 5, x: 1361.18, y: 1403.73
+    Vehicle ID: 8, x: 1360.80, y: 1439.52
+Timestep: 145.00
+    Vehicle ID: 5, x: 1361.41, y: 1381.65
+    Vehicle ID: 8, x: 1361.04, y: 1416.41
+Timestep: 146.00
+    Vehicle ID: 5, x: 1361.66, y: 1358.70
+    Vehicle ID: 8, x: 1361.28, y: 1394.26
+Timestep: 147.00
+    Vehicle ID: 5, x: 1361.90, y: 1336.24
+    Vehicle ID: 8, x: 1361.53, y: 1371.51
+Timestep: 148.00
+    Vehicle ID: 5, x: 1362.11, y: 1317.05
+    Vehicle ID: 8, x: 1361.76, y: 1348.54
+Timestep: 149.00
+    Vehicle ID: 5, x: 1362.27, y: 1302.36
+    Vehicle ID: 8, x: 1361.98, y: 1329.00
+Timestep: 150.00
+    Vehicle ID: 5, x: 1362.39, y: 1291.95
+    Vehicle ID: 8, x: 1362.15, y: 1313.76
+Timestep: 151.00
+    Vehicle ID: 5, x: 1365.68, y: 1285.77
+    Vehicle ID: 8, x: 1362.26, y: 1303.03
+Timestep: 152.00
+    Vehicle ID: 5, x: 1370.12, y: 1281.19
+    Vehicle ID: 8, x: 1362.36, y: 1294.78
+Timestep: 153.00
+    Vehicle ID: 5, x: 1377.33, y: 1277.85
+    Vehicle ID: 8, x: 1362.61, y: 1284.04
+Timestep: 154.00
+    Vehicle ID: 5, x: 1386.36, y: 1281.48
+    Vehicle ID: 8, x: 1363.11, y: 1270.89
+Timestep: 155.00
+    Vehicle ID: 5, x: 1391.76, y: 1291.95
+    Vehicle ID: 8, x: 1363.69, y: 1255.69
+Timestep: 156.00
+    Vehicle ID: 8, x: 1364.35, y: 1238.30

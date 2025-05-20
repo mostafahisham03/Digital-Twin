@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-11 13:31:29 by Eclipse SUMO duarouter Version 1.16.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="sumotesting.net.xml"/>
+        <route-files value="sumotesting.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="sumotesting.rou.xml"/>
+    </output>
+
+    <report>
+        <ignore-errors value="true"/>
+    </report>
+C2B2
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="0" depart="0.00">
+        <route edges="A2A1 A1B1 B1C1"/>
+    </vehicle>
+	<vehicle id="1" depart="0.00">
+        <route edges="C2B2 B2C2 C2B2 B2C2 C2B2 B2C2 C2B2 B2C2 C2B2 B2C2 C2B2 B2C2 C2B2 B2C2 C2B2 B2C2 C2B2 B2C2 C2B2 B2C2 C2B2 B2C2 C2B2 B2C2 C2B2 B2C2 C2B2 B2C2 C2B2 B2C2 C2B2 B2C2 C2B2 B2C2 C2B2 B2C2 C2B2 B2C2 C2B2 B2C2 C2B2 B2C2 C2D2"/>
+    </vehicle>
+	<vehicle id="2" depart="0.00">
+        <route edges="D1D0 D0C0 C0C1 C1C2 C2B2"/>
+    </vehicle>
+	<vehicle id="3" depart="1.00">
+        <route edges="E2E1 E1F1 F1F0 F0E0 E0D0"/>
+    </vehicle>
+	<vehicle id="4" depart="2.00">
+        <route edges="E1F1 F1F0 F0E0 E0D0"/>
+    </vehicle>
+	<vehicle id="5" depart="3.00">
+        <route edges="C1D1 D1D2 D2E2 E2E1"/>
+    </vehicle>
+	<vehicle id="6" depart="3.00">
+        <route edges="B0A0 A0A1 A1A2 A2B2"/>
+    </vehicle>
+	<vehicle id="7" depart="4.00">
+        <route edges="B0C0 C0C1 C1C2 C2B2 B2B1"/>
+    </vehicle>
+	<vehicle id="8" depart="5.00">
+        <route edges="D2E2 E2E1 E1F1 F1F2"/>
+    </vehicle>
+	<vehicle id="9" depart="5.00">
+        <route edges="D0C0 C0C1 C1C2 C2B2"/>
+    </vehicle>
+	<vehicle id="10" depart="5.00">
+        <route edges="A0A1 A1A2 A2B2 B2C2 C2C1"/>
+    </vehicle>
+	
+</routes>

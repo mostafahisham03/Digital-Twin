@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-11 13:31:29 by Eclipse SUMO duarouter Version 1.16.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="sumotesting.net.xml"/>
+        <route-files value="sumotesting.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="sumotesting.rou.xml"/>
+    </output>
+
+    <report>
+        <ignore-errors value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="0" depart="0.00">
+        <routeDistribution last="0">
+            <route id="!0" cost="71.60" probability="1.00000000" edges="A0A1 A1B1"/>
+            <route id="!1" cost="109.09" probability="1.00000000" edges="A0A1 A1B1 B1C1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1" depart="0.00">
+        <routeDistribution last="0">
+            <route id="!1" cost="109.09" probability="1.00000000" edges="A0A1 A1B1 B1C1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2" depart="0.00">
+        <routeDistribution last="0">
+            <route id="!2" cost="34.96" probability="0.5" edges="A0A1 A1B1 B1C1"/>
+			<route id="!2_1" probability="0.5"edges="A0A1 A1A2 A2B2 B2B1 B1C1"/>
+
+        </routeDistribution>
+    </vehicle>
+</routes>

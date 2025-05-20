@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-05-14 16:04:47 by Eclipse SUMO GUI Version 1.22.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:/Users/tefah/OneDrive/Desktop/SUMO FILES/Testing Scenarios/sumotesting.net.xml"/>
+        <route-files value="C:/Users/tefah/OneDrive/Desktop/SUMO FILES/Testing Scenarios/sumotesting.rou.xml"/>
+    </input>
+
+    <output>
+        <full-output value="C:/Users/tefah/OneDrive/Desktop/SUMO FILES/Testing Scenarios/sumotestingresults.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="62369"/>
+    </traci_server>
+
+</sumoConfiguration>
+-->
+
+<full-export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/full_file.xsd">
+    <data timestep="0.00">
+        <vehicles>
+            <vehicle id="0" eclass="HBEFA3/PC_G_EU4" CO2="2624.72" CO="164.78" HC="0.81" NOx="1.20" PMx="0.07" fuel="837.22" electricity="0.00" noise="55.94" route="!0" type="DEFAULT_VEHTYPE" waiting="0.00" lane="A2A1_0" pos="5.10" speed="0.00" angle="180.00" x="-1.60" y="991.70"/>
+            <vehicle id="1" eclass="HBEFA3/PC_G_EU4" CO2="2624.72" CO="164.78" HC="0.81" NOx="1.20" PMx="0.07" fuel="837.22" electricity="0.00" noise="55.94" route="!1" type="DEFAULT_VEHTYPE" waiting="0.00" lane="C2B2_0" pos="5.10" speed="0.00" angle="270.00" x="987.70" y="1001.60"/>
+            <vehicle id="2" eclass="HBEFA3/PC_G_EU4" CO2="2624.72" CO="164.78" HC="0.81" NOx="1.20" PMx="0.07" fuel="837.22" electricity="0.00" noise="55.94" route="!2" type="DEFAULT_VEHTYPE" waiting="0.00" lane="D1D0_0" pos="5.10" speed="0.00" angle="180.00" x="1498.40" y="487.70"/>
+        </vehicles>
+        <edges>
+            <edge id=":A0_0" traveltime="1.27">
+                <lane id=":A0_0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.08" meanspeed="6.08" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":A0_1" traveltime="0.66">
+                <lane id=":A0_1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.90" meanspeed="3.90" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":A1_0" traveltime="1.04">
+                <lane id=":A1_0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":A1_1" traveltime="2.01">
+                <lane id=":A1_1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":A1_2" traveltime="5.39">
+                <lane id=":A1_2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":A1_9" traveltime="2.77">
+                <lane id=":A1_9_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":A1_10" traveltime="5.88">
+                <lane id=":A1_10_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":A1_3" traveltime="2.89">
+                <lane id=":A1_3_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":A1_4" traveltime="3.27">
+                <lane id=":A1_4_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":A1_5" traveltime="6.28">
+                <lane id=":A1_5_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":A1_6" traveltime="1.39">
+                <lane id=":A1_6_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":A1_7" traveltime="1.04">
+                <lane id=":A1_7_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":A1_8" traveltime="5.39">
+                <lane id=":A1_8_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":A1_11" traveltime="5.88">
+                <lane id=":A1_11_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":A2_0" traveltime="1.27">
+                <lane id=":A2_0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.08" meanspeed="6.08" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":A2_1" traveltime="0.66">
+                <lane id=":A2_1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.90" meanspeed="3.90" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B0_0" traveltime="2.89">
+                <lane id=":B0_0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B0_1" traveltime="3.27">
+                <lane id=":B0_1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B0_2" traveltime="6.28">
+                <lane id=":B0_2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B0_3" traveltime="1.39">
+                <lane id=":B0_3_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B0_4" traveltime="1.04">
+                <lane id=":B0_4_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B0_5" traveltime="5.39">
+                <lane id=":B0_5_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B0_9" traveltime="5.88">
+                <lane id=":B0_9_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B0_6" traveltime="1.04">
+                <lane id=":B0_6_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B0_7" traveltime="2.01">
+                <lane id=":B0_7_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B0_8" traveltime="5.39">
+                <lane id=":B0_8_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B0_10" traveltime="2.77">
+                <lane id=":B0_10_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B0_11" traveltime="5.88">
+                <lane id=":B0_11_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B1_0" traveltime="1.39">
+                <lane id=":B1_0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B1_1" traveltime="1.04">
+                <lane id=":B1_1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B1_2" traveltime="2.01">
+                <lane id=":B1_2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B1_3" traveltime="5.39">
+                <lane id=":B1_3_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B1_16" traveltime="2.77">
+                <lane id=":B1_16_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B1_17" traveltime="5.88">
+                <lane id=":B1_17_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B1_4" traveltime="2.89">
+                <lane id=":B1_4_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B1_5" traveltime="2.54">
+                <lane id=":B1_5_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B1_6" traveltime="3.27">
+                <lane id=":B1_6_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B1_7" traveltime="6.28">
+                <lane id=":B1_7_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B1_8" traveltime="1.39">
+                <lane id=":B1_8_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B1_9" traveltime="1.04">
+                <lane id=":B1_9_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B1_10" traveltime="2.01">
+                <lane id=":B1_10_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B1_11" traveltime="5.39">
+                <lane id=":B1_11_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B1_18" traveltime="2.77">
+                <lane id=":B1_18_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B1_19" traveltime="5.88">
+                <lane id=":B1_19_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B1_12" traveltime="2.89">
+                <lane id=":B1_12_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B1_13" traveltime="2.54">
+                <lane id=":B1_13_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B1_14" traveltime="3.27">
+                <lane id=":B1_14_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B1_15" traveltime="6.28">
+                <lane id=":B1_15_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B2_0" traveltime="1.04">
+                <lane id=":B2_0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B2_1" traveltime="2.01">
+                <lane id=":B2_1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B2_2" traveltime="5.39">
+                <lane id=":B2_2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B2_9" traveltime="2.77">
+                <lane id=":B2_9_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B2_10" traveltime="5.88">
+                <lane id=":B2_10_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B2_3" traveltime="2.89">
+                <lane id=":B2_3_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B2_4" traveltime="3.27">
+                <lane id=":B2_4_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B2_5" traveltime="6.28">
+                <lane id=":B2_5_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B2_6" traveltime="1.39">
+                <lane id=":B2_6_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B2_7" traveltime="1.04">
+                <lane id=":B2_7_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B2_8" traveltime="5.39">
+                <lane id=":B2_8_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":B2_11" traveltime="5.88">
+                <lane id=":B2_11_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C0_0" traveltime="2.89">
+                <lane id=":C0_0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C0_1" traveltime="3.27">
+                <lane id=":C0_1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C0_2" traveltime="6.28">
+                <lane id=":C0_2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C0_3" traveltime="1.39">
+                <lane id=":C0_3_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C0_4" traveltime="1.04">
+                <lane id=":C0_4_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C0_5" traveltime="5.39">
+                <lane id=":C0_5_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C0_9" traveltime="5.88">
+                <lane id=":C0_9_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C0_6" traveltime="1.04">
+                <lane id=":C0_6_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C0_7" traveltime="2.01">
+                <lane id=":C0_7_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C0_8" traveltime="5.39">
+                <lane id=":C0_8_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C0_10" traveltime="2.77">
+                <lane id=":C0_10_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C0_11" traveltime="5.88">
+                <lane id=":C0_11_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C1_0" traveltime="1.39">
+                <lane id=":C1_0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C1_1" traveltime="1.04">
+                <lane id=":C1_1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C1_2" traveltime="2.01">
+                <lane id=":C1_2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C1_3" traveltime="5.39">
+                <lane id=":C1_3_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C1_16" traveltime="2.77">
+                <lane id=":C1_16_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C1_17" traveltime="5.88">
+                <lane id=":C1_17_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C1_4" traveltime="2.89">
+                <lane id=":C1_4_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C1_5" traveltime="2.54">
+                <lane id=":C1_5_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C1_6" traveltime="3.27">
+                <lane id=":C1_6_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C1_7" traveltime="6.28">
+                <lane id=":C1_7_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C1_8" traveltime="1.39">
+                <lane id=":C1_8_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C1_9" traveltime="1.04">
+                <lane id=":C1_9_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C1_10" traveltime="2.01">
+                <lane id=":C1_10_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C1_11" traveltime="5.39">
+                <lane id=":C1_11_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C1_18" traveltime="2.77">
+                <lane id=":C1_18_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C1_19" traveltime="5.88">
+                <lane id=":C1_19_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C1_12" traveltime="2.89">
+                <lane id=":C1_12_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C1_13" traveltime="2.54">
+                <lane id=":C1_13_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C1_14" traveltime="3.27">
+                <lane id=":C1_14_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C1_15" traveltime="6.28">
+                <lane id=":C1_15_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C2_0" traveltime="1.04">
+                <lane id=":C2_0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C2_1" traveltime="2.01">
+                <lane id=":C2_1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C2_2" traveltime="5.39">
+                <lane id=":C2_2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C2_9" traveltime="2.77">
+                <lane id=":C2_9_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C2_10" traveltime="5.88">
+                <lane id=":C2_10_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C2_3" traveltime="2.89">
+                <lane id=":C2_3_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C2_4" traveltime="3.27">
+                <lane id=":C2_4_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C2_5" traveltime="6.28">
+                <lane id=":C2_5_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C2_6" traveltime="1.39">
+                <lane id=":C2_6_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C2_7" traveltime="1.04">
+                <lane id=":C2_7_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C2_8" traveltime="5.39">
+                <lane id=":C2_8_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":C2_11" traveltime="5.88">
+                <lane id=":C2_11_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D0_0" traveltime="2.89">
+                <lane id=":D0_0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D0_1" traveltime="3.27">
+                <lane id=":D0_1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D0_2" traveltime="6.28">
+                <lane id=":D0_2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D0_3" traveltime="1.39">
+                <lane id=":D0_3_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D0_4" traveltime="1.04">
+                <lane id=":D0_4_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D0_5" traveltime="5.39">
+                <lane id=":D0_5_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D0_9" traveltime="5.88">
+                <lane id=":D0_9_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D0_6" traveltime="1.04">
+                <lane id=":D0_6_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D0_7" traveltime="2.01">
+                <lane id=":D0_7_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D0_8" traveltime="5.39">
+                <lane id=":D0_8_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D0_10" traveltime="2.77">
+                <lane id=":D0_10_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D0_11" traveltime="5.88">
+                <lane id=":D0_11_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D1_0" traveltime="1.39">
+                <lane id=":D1_0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D1_1" traveltime="1.04">
+                <lane id=":D1_1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D1_2" traveltime="2.01">
+                <lane id=":D1_2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D1_3" traveltime="5.39">
+                <lane id=":D1_3_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D1_16" traveltime="2.77">
+                <lane id=":D1_16_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D1_17" traveltime="5.88">
+                <lane id=":D1_17_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D1_4" traveltime="2.89">
+                <lane id=":D1_4_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D1_5" traveltime="2.54">
+                <lane id=":D1_5_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D1_6" traveltime="3.27">
+                <lane id=":D1_6_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D1_7" traveltime="6.28">
+                <lane id=":D1_7_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D1_8" traveltime="1.39">
+                <lane id=":D1_8_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D1_9" traveltime="1.04">
+                <lane id=":D1_9_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D1_10" traveltime="2.01">
+                <lane id=":D1_10_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D1_11" traveltime="5.39">
+                <lane id=":D1_11_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D1_18" traveltime="2.77">
+                <lane id=":D1_18_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D1_19" traveltime="5.88">
+                <lane id=":D1_19_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D1_12" traveltime="2.89">
+                <lane id=":D1_12_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D1_13" traveltime="2.54">
+                <lane id=":D1_13_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D1_14" traveltime="3.27">
+                <lane id=":D1_14_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D1_15" traveltime="6.28">
+                <lane id=":D1_15_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D2_0" traveltime="1.04">
+                <lane id=":D2_0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D2_1" traveltime="2.01">
+                <lane id=":D2_1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D2_2" traveltime="5.39">
+                <lane id=":D2_2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D2_9" traveltime="2.77">
+                <lane id=":D2_9_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D2_10" traveltime="5.88">
+                <lane id=":D2_10_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D2_3" traveltime="2.89">
+                <lane id=":D2_3_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D2_4" traveltime="3.27">
+                <lane id=":D2_4_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D2_5" traveltime="6.28">
+                <lane id=":D2_5_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D2_6" traveltime="1.39">
+                <lane id=":D2_6_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D2_7" traveltime="1.04">
+                <lane id=":D2_7_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D2_8" traveltime="5.39">
+                <lane id=":D2_8_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":D2_11" traveltime="5.88">
+                <lane id=":D2_11_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E0_0" traveltime="2.89">
+                <lane id=":E0_0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E0_1" traveltime="3.27">
+                <lane id=":E0_1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E0_2" traveltime="6.28">
+                <lane id=":E0_2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E0_3" traveltime="1.39">
+                <lane id=":E0_3_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E0_4" traveltime="1.04">
+                <lane id=":E0_4_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E0_5" traveltime="5.39">
+                <lane id=":E0_5_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E0_9" traveltime="5.88">
+                <lane id=":E0_9_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E0_6" traveltime="1.04">
+                <lane id=":E0_6_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E0_7" traveltime="2.01">
+                <lane id=":E0_7_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E0_8" traveltime="5.39">
+                <lane id=":E0_8_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E0_10" traveltime="2.77">
+                <lane id=":E0_10_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E0_11" traveltime="5.88">
+                <lane id=":E0_11_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E1_0" traveltime="1.39">
+                <lane id=":E1_0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E1_1" traveltime="1.04">
+                <lane id=":E1_1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E1_2" traveltime="2.01">
+                <lane id=":E1_2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E1_3" traveltime="5.39">
+                <lane id=":E1_3_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E1_16" traveltime="2.77">
+                <lane id=":E1_16_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E1_17" traveltime="5.88">
+                <lane id=":E1_17_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E1_4" traveltime="2.89">
+                <lane id=":E1_4_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E1_5" traveltime="2.54">
+                <lane id=":E1_5_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E1_6" traveltime="3.27">
+                <lane id=":E1_6_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E1_7" traveltime="6.28">
+                <lane id=":E1_7_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E1_8" traveltime="1.39">
+                <lane id=":E1_8_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E1_9" traveltime="1.04">
+                <lane id=":E1_9_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E1_10" traveltime="2.01">
+                <lane id=":E1_10_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E1_11" traveltime="5.39">
+                <lane id=":E1_11_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E1_18" traveltime="2.77">
+                <lane id=":E1_18_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E1_19" traveltime="5.88">
+                <lane id=":E1_19_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E1_12" traveltime="2.89">
+                <lane id=":E1_12_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E1_13" traveltime="2.54">
+                <lane id=":E1_13_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E1_14" traveltime="3.27">
+                <lane id=":E1_14_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E1_15" traveltime="6.28">
+                <lane id=":E1_15_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E2_0" traveltime="1.04">
+                <lane id=":E2_0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E2_1" traveltime="2.01">
+                <lane id=":E2_1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E2_2" traveltime="5.39">
+                <lane id=":E2_2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E2_9" traveltime="2.77">
+                <lane id=":E2_9_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E2_10" traveltime="5.88">
+                <lane id=":E2_10_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E2_3" traveltime="2.89">
+                <lane id=":E2_3_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E2_4" traveltime="3.27">
+                <lane id=":E2_4_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E2_5" traveltime="6.28">
+                <lane id=":E2_5_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E2_6" traveltime="1.39">
+                <lane id=":E2_6_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E2_7" traveltime="1.04">
+                <lane id=":E2_7_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E2_8" traveltime="5.39">
+                <lane id=":E2_8_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":E2_11" traveltime="5.88">
+                <lane id=":E2_11_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":F0_0" traveltime="0.66">
+                <lane id=":F0_0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.90" meanspeed="3.90" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":F0_1" traveltime="1.27">
+                <lane id=":F0_1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.08" meanspeed="6.08" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":F1_0" traveltime="1.39">
+                <lane id=":F1_0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":F1_1" traveltime="1.04">
+                <lane id=":F1_1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":F1_2" traveltime="5.39">
+                <lane id=":F1_2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":F1_9" traveltime="5.88">
+                <lane id=":F1_9_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":F1_3" traveltime="1.04">
+                <lane id=":F1_3_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":F1_4" traveltime="2.01">
+                <lane id=":F1_4_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":F1_5" traveltime="5.39">
+                <lane id=":F1_5_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":F1_10" traveltime="2.77">
+                <lane id=":F1_10_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":F1_11" traveltime="5.88">
+                <lane id=":F1_11_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":F1_6" traveltime="2.89">
+                <lane id=":F1_6_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.51" meanspeed="6.51" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":F1_7" traveltime="3.27">
+                <lane id=":F1_7_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="8.00" meanspeed="8.00" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":F1_8" traveltime="6.28">
+                <lane id=":F1_8_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.65" meanspeed="3.65" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":F2_0" traveltime="1.27">
+                <lane id=":F2_0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="6.08" meanspeed="6.08" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id=":F2_1" traveltime="0.66">
+                <lane id=":F2_1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="3.90" meanspeed="3.90" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="A0A1" traveltime="35.25">
+                <lane id="A0A1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="A0B0" traveltime="35.25">
+                <lane id="A0B0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="A1A0" traveltime="35.25">
+                <lane id="A1A0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="A1A2" traveltime="35.25">
+                <lane id="A1A2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="A1B1" traveltime="34.96">
+                <lane id="A1B1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="A2A1" traveltime="489600.00">
+                <lane id="A2A1_0" CO="164.78" CO2="2624.72" NOx="1.20" PMx="0.07" HC="0.81" noise="55.94" fuel="837.22" electricity="0.00" maxspeed="13.89" meanspeed="0.00" occupancy="0.01" vehicle_count="1"/>
+            </edge>
+            <edge id="A2B2" traveltime="35.25">
+                <lane id="A2B2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="B0A0" traveltime="35.25">
+                <lane id="B0A0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="B0B1" traveltime="34.96">
+                <lane id="B0B1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="B0C0" traveltime="34.96">
+                <lane id="B0C0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="B1A1" traveltime="34.96">
+                <lane id="B1A1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="B1B0" traveltime="34.96">
+                <lane id="B1B0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="B1B2" traveltime="34.96">
+                <lane id="B1B2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="B1C1" traveltime="34.96">
+                <lane id="B1C1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="B2A2" traveltime="35.25">
+                <lane id="B2A2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="B2B1" traveltime="34.96">
+                <lane id="B2B1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="B2C2" traveltime="34.96">
+                <lane id="B2C2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="C0B0" traveltime="34.96">
+                <lane id="C0B0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="C0C1" traveltime="34.96">
+                <lane id="C0C1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="C0D0" traveltime="34.96">
+                <lane id="C0D0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="C1B1" traveltime="34.96">
+                <lane id="C1B1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="C1C0" traveltime="34.96">
+                <lane id="C1C0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="C1C2" traveltime="34.96">
+                <lane id="C1C2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="C1D1" traveltime="34.96">
+                <lane id="C1D1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="C2B2" traveltime="485600.00">
+                <lane id="C2B2_0" CO="164.78" CO2="2624.72" NOx="1.20" PMx="0.07" HC="0.81" noise="55.94" fuel="837.22" electricity="0.00" maxspeed="13.89" meanspeed="0.00" occupancy="0.01" vehicle_count="1"/>
+            </edge>
+            <edge id="C2C1" traveltime="34.96">
+                <lane id="C2C1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="C2D2" traveltime="34.96">
+                <lane id="C2D2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="D0C0" traveltime="34.96">
+                <lane id="D0C0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="D0D1" traveltime="34.96">
+                <lane id="D0D1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="D0E0" traveltime="34.96">
+                <lane id="D0E0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="D1C1" traveltime="34.96">
+                <lane id="D1C1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="D1D0" traveltime="485600.00">
+                <lane id="D1D0_0" CO="164.78" CO2="2624.72" NOx="1.20" PMx="0.07" HC="0.81" noise="55.94" fuel="837.22" electricity="0.00" maxspeed="13.89" meanspeed="0.00" occupancy="0.01" vehicle_count="1"/>
+            </edge>
+            <edge id="D1D2" traveltime="34.96">
+                <lane id="D1D2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="D1E1" traveltime="34.96">
+                <lane id="D1E1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="D2C2" traveltime="34.96">
+                <lane id="D2C2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="D2D1" traveltime="34.96">
+                <lane id="D2D1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="D2E2" traveltime="34.96">
+                <lane id="D2E2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="E0D0" traveltime="34.96">
+                <lane id="E0D0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="E0E1" traveltime="34.96">
+                <lane id="E0E1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="E0F0" traveltime="35.25">
+                <lane id="E0F0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="E1D1" traveltime="34.96">
+                <lane id="E1D1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="E1E0" traveltime="34.96">
+                <lane id="E1E0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="E1E2" traveltime="34.96">
+                <lane id="E1E2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="E1F1" traveltime="34.96">
+                <lane id="E1F1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="E2D2" traveltime="34.96">
+                <lane id="E2D2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="E2E1" traveltime="34.96">
+                <lane id="E2E1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="E2F2" traveltime="35.25">
+                <lane id="E2F2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="F0E0" traveltime="35.25">
+                <lane id="F0E0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="F0F1" traveltime="35.25">
+                <lane id="F0F1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="F1E1" traveltime="34.96">
+                <lane id="F1E1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="F1F0" traveltime="35.25">
+                <lane id="F1F0_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="F1F2" traveltime="35.25">
+                <lane id="F1F2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="F2E2" traveltime="35.25">
+                <lane id="F2E2_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+            <edge id="F2F1" traveltime="35.25">
+                <lane id="F2F1_0" CO="0.00" CO2="0.00" NOx="0.00" PMx="0.00" HC="0.00" noise="0.00" fuel="0.00" electricity="0.00" maxspeed="13.89" meanspeed="13.89" occupancy="0.00" vehicle_count="0"/>
+            </edge>
+        </edges>
+        <tls/>
+    </data>
+</full-export>
