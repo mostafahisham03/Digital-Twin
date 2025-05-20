@@ -48,6 +48,9 @@ public class SumoReceiver : MonoBehaviour
                             foreach (var v in vehicles)
                             {
                                 liveVehicles[v.id] = v;
+                                Debug.Log($"Vehicle {v.id}: Pos=({v.x:F1},{v.y:F1}) Angle={v.angle:F1} Speed={v.speed:F1} " +
+                                          $"CO2={v.CO2:F1} Priority={v.priority} CO={v.CO:F1} HC={v.HC:F1} " +
+                                          $"NOx={v.NOx:F1} PMx={v.PMx:F1} Fuel={v.fuel:F1} Electricity={v.electricity:F1} ");
                             }
                         }
                     }

@@ -124,11 +124,10 @@ public class SumoPlayer : MonoBehaviour
             Quaternion targetRotation = Quaternion.Euler(0, unityAngle, 0);
             obj.transform.rotation = Quaternion.Slerp(obj.transform.rotation, targetRotation, Time.deltaTime * 10f);
             int clampedPriority = Mathf.Clamp((int)state.priority, 1, 5);
-            Debug.Log($"Vehicle {id} has priority {clampedPriority}");
             ApplyPriorityMaterial(obj, clampedPriority);
             if (vehiclePopups.TryGetValue(id, out TextMeshProUGUI popup))
             {
-                popup.text = $"CO2: {state.CO2:F1}\nCO: {state.CO:F1}\nHC: {state.HC:F2}\nNOx: {state.NOx:F2}\nPMx: {state.PMx:F2}\nFuel: {state.fuel:F1}";
+                popup.text = $"Priority: {state.priority}\nCO2: {state.CO2:F1}\nCO: {state.CO:F1}\nHC: {state.HC:F2}\nNOx: {state.NOx:F2}\nPMx: {state.PMx:F2}\nFuel: {state.fuel:F1}";
             }
         }
     }
