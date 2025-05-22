@@ -21,6 +21,11 @@ public class SumoPlayer : MonoBehaviour
     private Dictionary<string, TextMeshProUGUI> vehiclePopups = new();
 
     private SumoReceiver receiver;
+    private SUMONetworkVisualizer networkVisualizer;
+    // Tracks previous tile positions of each vehicle
+    private Dictionary<string, Vector2Int> previousVehicleTiles = new();
+
+
     private bool cameraTargetSet = false;
 
     void Start()
@@ -29,6 +34,11 @@ public class SumoPlayer : MonoBehaviour
         if (receiver == null)
         {
             Debug.LogError("SumoReceiver not found in scene.");
+        }
+        networkVisualizer = FindObjectOfType<SUMONetworkVisualizer>();
+        if (networkVisualizer == null)
+        {
+            Debug.LogWarning("SUMONetworkVisualizer not found in scene. Pollution tiles will not update.");
         }
     }
 
@@ -41,6 +51,63 @@ public class SumoPlayer : MonoBehaviour
         lock (receiver.vehicleLock)
         {
             snapshot = new Dictionary<string, VehicleData>(receiver.liveVehicles); // use copy to avoid lock in Update
+        }
+        if (networkVisualizer != null)
+        {
+            Dictionary<Vector2Int, PollutionLevels> tilePollutionChanges = new();
+
+            foreach (var kvp in snapshot)
+            {
+                string vehicleID = kvp.Key;
+                var state = kvp.Value;
+
+                Vector3 vehiclePos = new Vector3(state.x, 0, state.y);
+
+                int tileX = Mathf.FloorToInt((vehiclePos.x - networkVisualizer.MinX) / networkVisualizer.pollutionTileSize);
+                int tileZ = Mathf.FloorToInt((vehiclePos.z - networkVisualizer.MinZ) / networkVisualizer.pollutionTileSize);
+                Vector2Int currentTile = new(tileX, tileZ);
+
+                // Extract pollution levels from vehicle state
+                PollutionLevels pollution = new PollutionLevels
+                {
+                    CO2 = state.CO2,
+                    CO = state.CO,
+                    HC = state.HC,
+                    NOx = state.NOx,
+                    PMx = state.PMx
+                };
+
+                if (previousVehicleTiles.TryGetValue(vehicleID, out Vector2Int previousTile))
+                {
+                    if (previousTile != currentTile)
+                    {
+                        // Subtract from old tile
+                        if (!tilePollutionChanges.ContainsKey(previousTile))
+                            tilePollutionChanges[previousTile] = new PollutionLevels();
+
+                        SubtractPollution(tilePollutionChanges[previousTile], pollution);
+
+                        // Add to new tile
+                        if (!tilePollutionChanges.ContainsKey(currentTile))
+                            tilePollutionChanges[currentTile] = new PollutionLevels();
+
+                        AddPollution(tilePollutionChanges[currentTile], pollution);
+
+                        previousVehicleTiles[vehicleID] = currentTile;
+                    }
+                }
+                else
+                {
+                    if (!tilePollutionChanges.ContainsKey(currentTile))
+                        tilePollutionChanges[currentTile] = new PollutionLevels();
+
+                    AddPollution(tilePollutionChanges[currentTile], pollution);
+
+                    previousVehicleTiles[vehicleID] = currentTile;
+                }
+            }
+
+            networkVisualizer.ApplyTilePollutionChanges(tilePollutionChanges);
         }
 
         foreach (var kvp in snapshot)
@@ -139,5 +206,22 @@ public class SumoPlayer : MonoBehaviour
         {
             renderer.material = priorityMaterials[priority - 1];
         }
+    }
+    void AddPollution(PollutionLevels a, PollutionLevels b)
+    {
+        a.CO2 += b.CO2;
+        a.CO += b.CO;
+        a.HC += b.HC;
+        a.NOx += b.NOx;
+        a.PMx += b.PMx;
+    }
+
+    void SubtractPollution(PollutionLevels a, PollutionLevels b)
+    {
+        a.CO2 -= b.CO2;
+        a.CO -= b.CO;
+        a.HC -= b.HC;
+        a.NOx -= b.NOx;
+        a.PMx -= b.PMx;
     }
 }

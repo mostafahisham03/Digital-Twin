@@ -165,15 +165,3 @@ public class FCDPlayer : MonoBehaviour
         }
     }
 }
-
-// Helper to make popup canvas face the camera
-public class FaceCamera : MonoBehaviour
-{
-    void LateUpdate()
-    {
-        if (Camera.main != null)
-        {
-            transform.forward = Camera.main.transform.forward;
-        }
-    }
-}

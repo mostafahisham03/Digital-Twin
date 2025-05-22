@@ -35,52 +35,44 @@ public class SumoReceiver : MonoBehaviour
                 byte[] buffer = new byte[8192];
                 int length;
 
+                StringBuilder bufferBuilder = new StringBuilder();
+
                 while ((length = stream.Read(buffer, 0, buffer.Length)) != 0)
                 {
-                    string json = Encoding.UTF8.GetString(buffer, 0, length);
+                    string chunk = Encoding.UTF8.GetString(buffer, 0, length);
+                    bufferBuilder.Append(chunk);
 
-                    try
+                    string currentData = bufferBuilder.ToString().Trim();
+
+                    // Only try parsing if we think we have a full array
+                    if (currentData.StartsWith("[") && currentData.EndsWith("]"))
                     {
-                        VehicleData[] vehicles = JsonHelper.FromJson<VehicleData>(json);
-                        lock (vehicleLock)
+                        try
                         {
-                            liveVehicles.Clear();
-                            foreach (var v in vehicles)
+                            VehicleData[] vehicles = JsonHelper.FromJson<VehicleData>(currentData);
+                            lock (vehicleLock)
                             {
-                                liveVehicles[v.id] = v;
-                                Debug.Log($"Vehicle {v.id}: Pos=({v.x:F1},{v.y:F1}) Angle={v.angle:F1} Speed={v.speed:F1} " +
-                                          $"CO2={v.CO2:F1} Priority={v.priority} CO={v.CO:F1} HC={v.HC:F1} " +
-                                          $"NOx={v.NOx:F1} PMx={v.PMx:F1} Fuel={v.fuel:F1} Electricity={v.electricity:F1} ");
+                                liveVehicles.Clear();
+                                foreach (var v in vehicles)
+                                {
+                                    liveVehicles[v.id] = v;
+                                    Debug.Log($"Vehicle {v.id}: Pos=({v.x:F1},{v.y:F1}) Angle={v.angle:F1} Speed={v.speed:F1} " +
+                                              $"CO2={v.CO2:F1} Priority={v.priority} CO={v.CO:F1} HC={v.HC:F1} " +
+                                              $"NOx={v.NOx:F1} PMx={v.PMx:F1} Fuel={v.fuel:F1} Electricity={v.electricity:F1} ");
+                                }
                             }
+                            bufferBuilder.Clear(); // Clear after successful parse
                         }
-                    }
-                    catch (Exception ex)
-                    {
-                        Debug.LogError($"[TCP] Deserialization failed: {ex.Message}");
+                        catch (Exception ex)
+                        {
+                            Debug.LogError($"[TCP] Deserialization failed: {ex.Message}\nRaw data: {currentData}");
+                            // Buffer kept to retry in next read
+                        }
                     }
                 }
             }
         }
     }
-
-    // void Update()
-    // {
-    //     lock (vehicleLock)
-    //     {
-    //         if (liveVehicles.Count > 0)
-    //         {
-    //             StringBuilder sb = new();
-    //             sb.AppendLine("[TCP] Vehicles Received This Step:");
-    //             foreach (var v in liveVehicles.Values)
-    //             {
-    //                 sb.AppendLine($" - {v.id}: Pos=({v.x:F1},{v.y:F1}) Angle={v.angle:F1} Speed={v.speed:F1} " +
-    //                               $"CO2={v.CO2:F1} Priority={v.priority} CO={v.CO:F1} HC={v.HC:F1} " +
-    //                               $"NOx={v.NOx:F1} PMx={v.PMx:F1} Fuel={v.fuel:F1} Electricity={v.electricity:F1} ");
-    //             }
-    //             Debug.Log(sb.ToString());
-    //         }
-    //     }
-    // }
 
     void OnApplicationQuit()
     {
@@ -96,6 +88,7 @@ public class VehicleData
     public float CO2, CO, HC, NOx, PMx;
     public float fuel, electricity, noise, priority;
 }
+
 public static class JsonHelper
 {
     public static T[] FromJson<T>(string json)
