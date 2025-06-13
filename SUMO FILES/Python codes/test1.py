@@ -1,45 +1,62 @@
 import traci
+import socket
+import json
+import time
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 import pandas as pd
 
-df = pd.read_excel('C:/Users/tefah/OneDrive/Desktop/Digital Twin/SUMO FILES/Dataset.xlsx')
+TCP_IP = '127.0.0.1'
+TCP_PORT = 5005
 
-# Preprocessing: split dataset into features and target variable
-X = df.drop(['priority'], axis=1) # features (exclude 'priority')
-y = df['priority'] # target variable 
-X.drop('initial priority', axis=1, inplace=True)
-# Creating the Random Forest model with default parameters
-rf_model = RandomForestClassifier()
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-# Training the model on the entire dataset
-rf_model.fit(X, y)
+try:
+    sock.connect((TCP_IP, TCP_PORT))
+    print("Connected to Unity TCP server at 127.0.0.1:5005")
+except socket.error as e:
+    print(f"Failed to connect to Unity: {e}")
+    exit(1)
+
 
 # Connect to SUMO and start the simulation
-traci.start(['sumo-gui', '-c', 'C:/Users/tefah/OneDrive/Desktop/Digital Twin/SUMO FILES/sumotest.sumo.cfg'])
+traci.start(['sumo-gui', '-c', 'C:/Users/tefah/OneDrive/Desktop/Digital Twin/SUMO FILES/sumotest.sumo.cfg', '--emission-output', 'emission_output.xml'])
 step = 0
 while traci.simulation.getMinExpectedNumber() > 0:
     traci.simulationStep()
     # Get a list of all vehicles currently in the simulation
     vehicles = traci.vehicle.getIDList()
+    vehicle_data_list = []
     for vehicle_id in vehicles:
-        # Extract features from the current vehicle
-        CO2 = traci.vehicle.getCO2Emission(vehicle_id)
-        CO = traci.vehicle.getCOEmission(vehicle_id)
-        HC = traci.vehicle.getHCEmission(vehicle_id)
-        NOx = traci.vehicle.getNOxEmission(vehicle_id)
-        PMx = traci.vehicle.getPMxEmission(vehicle_id)
-        fuel = traci.vehicle.getFuelConsumption(vehicle_id)
-        electricity = traci.vehicle.getElectricityConsumption(vehicle_id)
-        noise = traci.vehicle.getNoiseEmission(vehicle_id)
-        features = [CO2,CO,HC,NOx,PMx,fuel,electricity,noise,0,0]
-        # Predict the priority using the Random Forest model
-        priority = rf_model.predict([features])[0]
-        print("vehicle id "+str(vehicle_id)+"'s priority is " + str(priority))
-        # Assign the predicted priority to the vehicle
-        # traci.vehicle.setPriority(vehicle_id, priority)
+        real_id = vehicle_id.split(' ')[0]
+        data = {
+                "id": real_id,
+                "x": traci.vehicle.getPosition(vehicle_id)[0],
+                "y": traci.vehicle.getPosition(vehicle_id)[1],
+                "angle": traci.vehicle.getAngle(vehicle_id),
+                "speed": traci.vehicle.getSpeed(vehicle_id),
+                "CO2": traci.vehicle.getCO2Emission(vehicle_id),
+                "CO": traci.vehicle.getCOEmission(vehicle_id),
+                "HC": traci.vehicle.getHCEmission(vehicle_id),
+                "NOx": traci.vehicle.getNOxEmission(vehicle_id),
+                "PMx": traci.vehicle.getPMxEmission(vehicle_id),
+                "fuel": traci.vehicle.getFuelConsumption(vehicle_id),
+                "electricity": traci.vehicle.getElectricityConsumption(vehicle_id),
+                "noise": traci.vehicle.getNoiseEmission(vehicle_id),
+                "priority": 0,
+            }
+        vehicle_data_list.append(data)
+
+        try:
+            message = json.dumps(vehicle_data_list).encode('utf-8')
+            sock.sendall(message)
+        except Exception as e:
+            print(f"Send failed: {e}")
     step += 1
+    time.sleep(0.03)  # optional pacing
 
 # Stop the simulation and close the TraCI connection
 traci.close()
+sock.close()
+print("Disconnected from Unity TCP server")

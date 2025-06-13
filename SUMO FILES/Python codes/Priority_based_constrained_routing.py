@@ -169,7 +169,7 @@ while traci.simulation.getMinExpectedNumber() > 0 and step<10000:
         fuel = traci.vehicle.getFuelConsumption(vehicle_id)
         electricity = traci.vehicle.getElectricityConsumption(vehicle_id)
         noise = traci.vehicle.getNoiseEmission(vehicle_id)
-        features = [CO2,CO,HC,NOx,PMx,fuel,electricity,noise,0,0]
+        features = [CO2,CO,HC,NOx,PMx,fuel,electricity,noise,0,0,1,100]
         print("Features: ",features)
         # Predict the priority using the Random Forest model
         priority = rf_model.predict([features])[0]

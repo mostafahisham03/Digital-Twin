@@ -211,11 +211,11 @@ public class SUMONetworkVisualizer : MonoBehaviour
             {
                 PollutionLevels basePollution = new PollutionLevels
                 {
-                    CO2 = 50f + (float)(rand.NextDouble() * 100f),
-                    CO = 300f + (float)(rand.NextDouble() * 700f),
+                    CO2 = 400f + (float)(rand.NextDouble() * 100f),
+                    CO = 100f + (float)(rand.NextDouble() * 150f),
                     HC = 20f + (float)(rand.NextDouble() * 50f),
-                    NOx = 10f + (float)(rand.NextDouble() * 40f),
-                    PMx = 5f + (float)(rand.NextDouble() * 25f),
+                    NOx = 0f + (float)(rand.NextDouble() * 20f),
+                    PMx = 15f + (float)(rand.NextDouble() * 150f),
                 };
                 tilePollutionValues[tileCoord] = basePollution;
                 tileCOValues[tileCoord] = basePollution.Total();

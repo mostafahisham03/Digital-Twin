@@ -67,7 +67,7 @@ Transform:
   m_GameObject: {fileID: 1}
   serializedVersion: 2
   m_LocalRotation: {x: 0.3812272, y: 0.08052145, z: -0.033353075, w: 0.9203639}
-  m_LocalPosition: {x: 2900, y: 350.27, z: 1900.41}
+  m_LocalPosition: {x: 3200, y: 300.27, z: 2200.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -269,7 +269,7 @@ MonoBehaviour:
   showPollutionRegionsOnNodes: 0
   showPollutionRegionsOnLanes: 1
   pollutionTileSize: 200
-  COThreshold: 4000
+  PollutionThreshold: 3000
 --- !u!4 &318927361
 Transform:
   m_ObjectHideFlags: 0
@@ -296,6 +296,8 @@ GameObject:
   - component: {fileID: 727540161}
   - component: {fileID: 727540162}
   - component: {fileID: 727540163}
+  - component: {fileID: 727540165}
+  - component: {fileID: 727540164}
   m_Layer: 0
   m_Name: SimulationController
   m_TagString: Untagged
@@ -352,6 +354,40 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 022f817192f82864a956f7ccd727ef3d, type: 2}
   verticalOffset: 1
   popupVerticalOffset: 3
+--- !u!114 &727540164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727540158}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd8424697832a5548bc99f531b2c28d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fcdFileName: emissions.xml
+  vehiclePrefab: {fileID: 1654648867817274, guid: 8258fdccd226b584b8dc1c7ac1652db0, type: 3}
+  priorityMaterials:
+  - {fileID: 2100000, guid: 4afaa452ef080cb498346d3bd5c7c110, type: 2}
+  - {fileID: 2100000, guid: a27a8be488cbb5d4bac448dda9339b95, type: 2}
+  - {fileID: 2100000, guid: 7e00b4046bd2ca5429f90632d734feb9, type: 2}
+  - {fileID: 2100000, guid: 3f47f4d644d848c4aa8dce558daa5b85, type: 2}
+  - {fileID: 2100000, guid: 022f817192f82864a956f7ccd727ef3d, type: 2}
+  verticalOffset: 0.6
+  popupVerticalOffset: 2
+--- !u!114 &727540165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727540158}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc74feb95453c243b6feb4dc525a07c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
